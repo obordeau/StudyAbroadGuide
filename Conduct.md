@@ -6,7 +6,7 @@ Decions will be made by a concensus of the group after a discussion.
 
 ## Attendance
 Our expectations for Attendance will depend on everyone avalability. We have agreed to try and 
-have our in-person meetings monday as it works best for everyone. Any further meetings will be 
+have our in-person meetings monday at the library as it works best for everyone. Any further meetings will be 
 scheduled acordingly through discord. The group will be understanding to missed attendance as long as 
 a resonable explanation is provided. 
 
@@ -18,6 +18,11 @@ discussing and assigning sprints that intersts us.
 ## Agenda
 Our group assign someone to keep an agenda and will take notes. 
 
+## Enforcement/ Feedback
+Enforcing team rules is essential. Violations will be addressed fairly and promptly to maintain a productive and respectful environment. Open communication  and feedback is encouraged. Any concerns or questions will be addresed at our metting. 
+
+## Conversational Courtesies
+We expect all team members to practice active listening, show empathy, and engage in constructive dialogue. If issues arise, they will be addressed promptly and fairly to promote positive team communication.
 
 ## Our Pledge
 
