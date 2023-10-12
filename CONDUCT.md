@@ -137,7 +137,7 @@ individual, or aggression toward or disparagement of classes of individuals.
 community.
 
 ## Signatures
-![Oceane's Signature](src/oceaneSignature.png)
+![Oceane's Signature](/src/oceaneSignature.png)
 
 ## Attribution
 
