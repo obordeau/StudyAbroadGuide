@@ -138,6 +138,7 @@ community.
 ## Signatures
 ![Oceane's Signature](/src/OceaneSignature.png)
 ![Darryl's Signature](/src/signature.png)
+![Jay's Signature](/src/JaysSignature.png)
 
 ## Attribution
 
