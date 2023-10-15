@@ -15,3 +15,8 @@
 |Item 2|Description Item 2|2|2|
 
 |Item 3|Description Item 3|3|3|
+
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
