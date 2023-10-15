@@ -16,7 +16,7 @@
 
 
 | Observations | Observation Statement: |Supporting Data: | Team Action (if any): |
-| :---        |     :---:      |          ---: | :---        |
-| git status   | git status     | git status    | git status    |
-
-| git diff     | git diff       | git diff      | git status    |
+| :---:        |  :---           | :---          | :---        |
+| git status   | git status     | git status   | git status    |
+| :---:        |  :---           | :---          | :---        |
+| git diff     | git diff       | git diff     | git status    |
