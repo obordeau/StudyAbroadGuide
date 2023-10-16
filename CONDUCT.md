@@ -1,24 +1,24 @@
 # Contributor Covenant Code of Conduct
 
 ## Decisions 
-Decions will be made by a concensus of the group after a discussion. 
+Decisions will be made by a concensus of the group after a discussion. 
 
 ## Attendance
-Our expectations for Attendance will depend on everyone avalability. We have agreed to try and 
+Our expectations for attendance will depend on everyone avalability. We have agreed to try and 
 have our in-person meetings monday at the library as it works best for everyone. Any further meetings will be 
 scheduled acordingly through discord. The group will be understanding to missed attendance as long as 
 a resonable explanation is provided. 
 
 ## Participation
 The group main form of communication will be a discord group chat. We will ensure full participation
-from everyone by our project sprints. we will honor the groups strengths and interests by carefully
+from everyone by our project sprints. We will honor the groups' strengths and interests by carefully
 discussing and assigning sprints that intersts us. 
 
 ## Agenda
-Our group assign someone to keep an agenda and will take notes. 
+Our group will assign someone to keep an agenda and take notes. 
 
 ## Enforcement/ Feedback
-Enforcing team rules is essential. Violations will be addressed fairly and promptly to maintain a productive and respectful environment. Open communication  and feedback is encouraged. Any concerns or questions will be addresed at our metting. 
+Enforcing team rules is essential. Violations will be addressed fairly and promptly to maintain a productive and respectful environment. Open communication and feedback is encouraged. Any concerns or questions will be addresed at our metting. 
 
 ## Conversational Courtesies
 We expect all team members to practice active listening, show empathy, and engage in constructive dialogue. If issues arise, they will be addressed promptly and fairly to promote positive team communication.
@@ -136,9 +136,10 @@ individual, or aggression toward or disparagement of classes of individuals.
 community.
 
 ## Signatures
-![Oceane's Signature](/src/OceaneSignature.png)
-![Darryl's Signature](/src/signature.png)
+![Oceane's Signature](/src/OceanesSignature.png)
+![Darryl's Signature](/src/DarrylsSignature.png)
 ![Jay's Signature](/src/JaysSignature.png)
+![Annie's Signature](/src/AnniesSignature.png)
 
 ## Attribution
 
