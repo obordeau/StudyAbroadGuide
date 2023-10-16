@@ -138,8 +138,8 @@ community.
 ## Signatures
 ![Oceane's Signature](/src/OceanesSignature.png)
 ![Darryl's Signature](/src/DarrylsSignature.png)
-<img id = "Jay Signature" src = /src/JaysSignature.png width = 237>
-<img id = "Annie Signature" src = /src/AnnieSignature.png width = 237>
+<img id = "Jay Signature" src = /src/JaysSignature.png width = "237">
+<img id = "Annie Signature" src = /src/AnnieSignature.png width = "237">
 
 ## Attribution
 
