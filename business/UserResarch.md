@@ -4,10 +4,7 @@ This file is the analysis of the results of our focus group survey : [Study Abro
 
 | Observations | Observation Statement |Supporting Data | Team Action (if any) |
 | :---:        |  :---           | :---          | :---        |
-|Observation 1 : A feature that users want  | A few respondents wanted a feature to be able to compare two programs and universities side by side to see their pros and cons. | In our open-ended question, “What features do you want to see implemented in the app?”, we got the following responses:
-“I want to see a feature where I can compare two universities side by side.”
-“It can have a function of comparing two different programs, just like buying an iPhone”
-“Pros and cons of different options, how to plan, and a feature to meet other people doing the same plan to make connections prior to traveling.”
+|Observation 1 : A feature that users want  | A few respondents wanted a feature to be able to compare two programs and universities side by side to see their pros and cons. | In our open-ended question, “What features do you want to see implemented in the app?”, we got the following responses: “I want to see a feature where I can compare two universities side by side.”, “It can have a function of comparing two different programs, just like buying an iPhone”, “Pros and cons of different options, how to plan, and a feature to meet other people doing the same plan to make connections prior to traveling.”
  | Our team can implement a screen where there is a comparison of two programs side by side.    |
 |Observation 2 : Information on the user profile | People are most interesting in seeing the full name, major/minor, year of study and universities attended for each user in the app. The profile photo and a link to socials could be optionnal.| Answers to the question : "What do you want to see on a user profile?" ![Data](/src/UserProfileInformationData.png)| Each user profile will have mandatory information (full name, major/minor, year of study and universities attended) and optional information (picture, link to socials).|
 
