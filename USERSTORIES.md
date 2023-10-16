@@ -11,20 +11,40 @@
 - User can send a message to the other user.
 - The other user can read the message and send one too.
 
+
+## Signing up and loggin in
+
+**User Story**: AS A general user, I WANT TO sign up and sign in to the study abroad guide app, SO THAT I can have access to the features that the study abroad guide app provides.
+
+**Acceptance Criteria**:
+- User can sign up for an account
+- User can login to the mobile app with sign in information
+
+
+## Browse and search for programs abroad
+
+**User Story**: AS A [current URI student looking to study abroad](https://docs.google.com/presentation/d/1sbAjLwfLqEJ79Eh1rdmuhzWfYetgkLcDNvCNk34xBnA/edit#slide=id.g28bf3e59363_0_12), I WANT TO use the app to look at available study abroad programs in the target country, SO THAT I can decide which program to apply to study at.
+
+**Acceptance Criteria**:
+- User can login to the mobile app
+- User can view all study abroad programs in target country
+- User can filter the study abroad programs in target country
+- User can compare study abroad programs in target country
+- User can view the program’s information
+- User can view feedback and review from students who completed the program
+
+
 ## Title
 
 **User Story**: 
 
 **Acceptance Criteria**:
+- 
+
 
 ## Title
 
-**User Story**: 
-
+**User Story**:
 **Acceptance Criteria**:
+-
 
-## Title
-
-**User Story**: 
-
-**Acceptance Criteria**:
