@@ -36,7 +36,7 @@
 
 ## Transportation options
 
-**User Story**: As a general user, I can utilize the study abroad app in aiding me for getting around to places.
+**User Story**: AS A general user, I WANT TO see all my transportation options SO THAT I can utilize the study abroad app in aiding me for getting around to places.
 
 **Acceptance Criteria**:
 - User can navigate to the transportation section
@@ -46,7 +46,7 @@
 
 ## Student life: Food 
 
-**User Story**: As a general user, I can utilize the study abroad app as a reliable source for food spots.
+**User Story**: AS A general user, I WANT TO know what good food is around SO THAT I can utilize the study abroad app as a reliable resource for food spots.
 
 **Acceptance Criteria**:
 - User can navigate to the food section
