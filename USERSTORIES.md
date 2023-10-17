@@ -34,17 +34,22 @@
 - User can view feedback and review from students who completed the program
 
 
-## Title
+## Transportation options
 
-**User Story**: 
+**User Story**: As a general user, I can utilize the study abroad app in aiding me for getting around to places.
 
 **Acceptance Criteria**:
-- 
+- User can navigate to the transportation section
+- User can see the display options
+- User can click on options for more information
 
 
-## Title
+## Student life: Food 
 
-**User Story**:
+**User Story**: As a general user, I can utilize the study abroad app as a reliable source for food spots.
+
 **Acceptance Criteria**:
--
+- User can navigate to the food section
+- User can see the display options
+- User can click on options for more information
 
