@@ -2,7 +2,7 @@
 
 ## Chat User Story
 
-**User Story**: AS A [new international student coming at URI](https://docs.google.com/presentation/d/1sbAjLwfLqEJ79Eh1rdmuhzWfYetgkLcDNvCNk34xBnA/edit#slide=id.p), I WANT TO chat with other students SO THAT I can have more information about URI for my arrival.
+**User Story**: AS A [new international student coming at URI](https://docs.google.com/presentation/d/1sbAjLwfLqEJ79Eh1rdmuhzWfYetgkLcDNvCNk34xBnA/edit#slide=id.p), I WANT TO chat with other students SO THAT I can have more information about URI for my arrival
 
 **Acceptance Criteria**:
 - User can login to the mobile app.
