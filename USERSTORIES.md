@@ -56,7 +56,7 @@
 
 ##  URI/ Homepage
 
-**User Story**: As a general user, I can navigate to the URI homepage 
+**User Story**: AS A general user, I WANT TO have immmediate access to the URI homepage SO THAT it is easier to navigate to the URI homepage. 
 
 **Acceptance Criteria**:
 - user can Login into the app
