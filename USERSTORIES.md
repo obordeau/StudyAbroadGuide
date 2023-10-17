@@ -52,4 +52,14 @@
 - User can navigate to the food section
 - User can see the display options
 - User can click on options for more information
+  
 
+##  URI/ Homepage
+
+**User Story**: As a general user, I can navigate to the URI homepage 
+
+**Acceptance Criteria**:
+- user can Login into the app
+- user can apply current school to profile
+- user can use a single button and navigate to the chosen school page
+- user can find features and information related to current school
