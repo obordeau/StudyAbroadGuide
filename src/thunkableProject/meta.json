@@ -4,7 +4,25 @@
             "apiComponents": {
                 "ApiContainer": {
                     "id": "ApiContainer",
-                    "children": []
+                    "children": [
+                        {
+                            "type": "In App Purchase",
+                            "translatedName": "In-App Purchase",
+                            "isApi": true,
+                            "reactType": "InAppPurchase",
+                            "properties": {
+                                "ItemAndroidList": [],
+                                "SubscriptionAndroidList": [],
+                                "ItemIOSList": [],
+                                "SubscriptionItemIOSList": [],
+                                "UseGooglePlayCache": false
+                            },
+                            "children": [],
+                            "id": "a1340b11-8c21-4632-b135-838c41338367",
+                            "thunkableVersion": 425,
+                            "name": "In-App_Purchase1"
+                        }
+                    ]
                 }
             },
             "assets": {
@@ -188,8 +206,16 @@
                 "08aa0a09-f8f4-4061-a426-b1b3a615b6a8": {
                     "xml": "",
                     "permissions": {
-                        "android": [],
-                        "ios": []
+                        "android": [
+                            "android.permission.CAMERA"
+                        ],
+                        "ios": [
+                            {
+                                "name": "NSPhotoLibraryUsageDescription",
+                                "label": "Photos",
+                                "hint": "Describe why your app uses photos."
+                            }
+                        ]
                     },
                     "enabledFeatures": {
                         "iap": false
@@ -218,7 +244,7 @@
             "figmaComponents": {},
             "description": null,
             "icon": null,
-            "projectName": "Wireframe_StudyAbroadGuide",
+            "projectName": "StudyAbroadGuide",
             "settings": {
                 "teamId": null,
                 "appName": "StudyAbroadGuide",
@@ -249,7 +275,11 @@
                 "cloudinaryAPIKey": null,
                 "cloudinaryAPISecret": null,
                 "permissions": {
-                    "ios": {}
+                    "ios": {
+                        "usageDescriptions": {
+                            "NSPhotoLibraryUsageDescription": ""
+                        }
+                    }
                 },
                 "googleMapAPIKeyAndroid": null,
                 "googleMapAPIKeyIOS": null,
@@ -293,7 +323,11 @@
                 "cloudinaryAPIKey": null,
                 "cloudinaryAPISecret": null,
                 "permissions": {
-                    "ios": {}
+                    "ios": {
+                        "usageDescriptions": {
+                            "NSPhotoLibraryUsageDescription": ""
+                        }
+                    }
                 },
                 "googleMapAPIKeyAndroid": null,
                 "googleMapAPIKeyIOS": null,
