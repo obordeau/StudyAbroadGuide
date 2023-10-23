@@ -184,6 +184,16 @@
                     "enabledFeatures": {
                         "iap": false
                     }
+                },
+                "08aa0a09-f8f4-4061-a426-b1b3a615b6a8": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "iap": false
+                    }
                 }
             },
             "categories": [
