@@ -220,6 +220,16 @@
                     "enabledFeatures": {
                         "iap": false
                     }
+                },
+                "566a014c-221f-4c25-901b-76a6636ebadc": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "iap": false
+                    }
                 }
             },
             "categories": [
@@ -238,6 +248,9 @@
                     },
                     {
                         "id": "08aa0a09-f8f4-4061-a426-b1b3a615b6a8"
+                    },
+                    {
+                        "id": "566a014c-221f-4c25-901b-76a6636ebadc"
                     }
                 ]
             },
@@ -276,9 +289,7 @@
                 "cloudinaryAPISecret": null,
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {
-                            "NSPhotoLibraryUsageDescription": ""
-                        }
+                        "usageDescriptions": {}
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -324,9 +335,7 @@
                 "cloudinaryAPISecret": null,
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {
-                            "NSPhotoLibraryUsageDescription": ""
-                        }
+                        "usageDescriptions": {}
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -373,6 +382,11 @@
                     "scope": "APP",
                     "name": "user ID",
                     "screenId": "51f75d1c-6a4d-4a50-a3c0-9e35bcb415c2"
+                },
+                "24b66df5-ff5e-4123-b871-0e48b7557760": {
+                    "scope": "APP",
+                    "name": "canMove",
+                    "screenId": "08aa0a09-f8f4-4061-a426-b1b3a615b6a8"
                 }
             },
             "defaultDesignerDevice": "PHONE",
