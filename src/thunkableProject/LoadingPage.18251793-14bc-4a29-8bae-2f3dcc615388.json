@@ -1,4 +1,5 @@
 {
+    "id": "18251793-14bc-4a29-8bae-2f3dcc615388",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -29,7 +30,8 @@
             "flexDirection": "column",
             "justifyContent": "center",
             "alignItems": "center",
-            "display": "flex"
+            "display": "flex",
+            "backgroundColor": "rgba(26, 55, 77, 1)"
         },
         "ShowStatusBar": true,
         "StatusBarStyle": "default",
@@ -51,21 +53,52 @@
         "navigationOptions": {
             "headerStyle": {}
         },
-        "tabNavigationOptions": {}
+        "tabNavigationOptions": {},
+        "BackgroundColor": "rgba(26, 55, 77, 1)"
     },
     "children": [
+        {
+            "type": "Lottie",
+            "label": "Animation",
+            "translatedName": "Animation",
+            "properties": {
+                "Animation": "animation_lmw7v65b.json",
+                "Loop": true,
+                "Height": 166,
+                "Width": 175,
+                "Visible": true,
+                "X": 100,
+                "Y": 352,
+                "RelativeX": 100,
+                "RelativeY": 352,
+                "ResizeMode": "STRETCH",
+                "ParentId": "18251793-14bc-4a29-8bae-2f3dcc615388",
+                "position": "absolute",
+                "edgeOffsets": 352,
+                "style": {
+                    "position": "absolute",
+                    "left": "29.466666666666665%",
+                    "top": "20.00796476761619%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "b1b51fd3-82bb-42e6-aeb1-1a52616f78bd",
+            "thunkableVersion": 425,
+            "name": "Animation1"
+        },
         {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "resizeMode": "stretch",
-                "Height": 311,
-                "Width": 311,
+                "resizeMode": "cover",
+                "Height": 368,
+                "Width": 356,
                 "Visible": true,
-                "X": 32,
-                "Y": 182,
-                "RelativeX": 32,
-                "RelativeY": 182,
+                "X": 9,
+                "Y": 68,
+                "RelativeX": 9,
+                "RelativeY": 68,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -92,7 +125,8 @@
                 "capInsets": {},
                 "ParentId": "18251793-14bc-4a29-8bae-2f3dcc615388",
                 "position": "absolute",
-                "edgeOffsets": 182.99999999999997
+                "edgeOffsets": 68,
+                "Picture": "Logo (2).png"
             },
             "children": [],
             "id": "eb38d4d9-957c-4149-9224-95fcef4ca84b",
@@ -100,7 +134,6 @@
             "name": "Image1"
         }
     ],
-    "id": "18251793-14bc-4a29-8bae-2f3dcc615388",
     "thunkableVersion": 424,
     "name": "LoadingPage"
 }
