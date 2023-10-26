@@ -136,10 +136,10 @@ individual, or aggression toward or disparagement of classes of individuals.
 community.
 
 ## Signatures
-![Oceane's Signature](/src/OceanesSignature.png)
-![Darryl's Signature](/src/DarrylsSignature.png)
-<img id = "Jay Signature" src = /src/JaysSignature.png width = "237">
-<img id = "Annie Signature" src = /src/AnnieSignature.png width = "237" height = "143">
+![Oceane's Signature](/src/signatures/OceanesSignature.png)
+![Darryl's Signature](/src/signatures/DarrylsSignature.png)
+![Jay's Signature](/src/signatures/JaysSignature.png)
+![Annie's Signature](/src/signatures/AnnieSignature.png)
 
 ## Attribution
 
