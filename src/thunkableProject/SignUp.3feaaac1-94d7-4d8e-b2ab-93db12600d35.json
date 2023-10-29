@@ -62,8 +62,8 @@
             "translatedName": "Text Input",
             "properties": {
                 "Hint": "Email",
-                "Height": 53,
-                "Width": 327,
+                "Height": 50,
+                "Width": 331,
                 "Visible": true,
                 "X": 24,
                 "Y": 169,
@@ -113,7 +113,7 @@
                 "underlineColorAndroid": "rgba(0, 0, 0, 0)",
                 "ParentId": "51f75d1c-6a4d-4a50-a3c0-9e35bcb415c2",
                 "position": "absolute",
-                "edgeOffsets": 159,
+                "edgeOffsets": 169,
                 "placeholder": "Email"
             },
             "children": [],
@@ -255,7 +255,7 @@
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "line-40947.png",
+                "Picture": "",
                 "resizeMode": "contain",
                 "Height": 123,
                 "Width": 377,
@@ -302,10 +302,10 @@
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "line-40947.png",
+                "Picture": "",
                 "resizeMode": "contain",
-                "Height": 123,
-                "Width": 377,
+                "Height": 125,
+                "Width": 379,
                 "Visible": true,
                 "X": 0,
                 "Y": 218,
@@ -337,7 +337,7 @@
                 "capInsets": {},
                 "ParentId": "51f75d1c-6a4d-4a50-a3c0-9e35bcb415c2",
                 "position": "absolute",
-                "edgeOffsets": 225
+                "edgeOffsets": 218
             },
             "children": [],
             "id": "84bd8d60-f96b-4a6c-8626-d4e57c873c1f",
@@ -349,7 +349,7 @@
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "line-40947.png",
+                "Picture": "",
                 "resizeMode": "contain",
                 "Height": 123,
                 "Width": 377,
@@ -688,7 +688,7 @@
                 "ParentId": "51f75d1c-6a4d-4a50-a3c0-9e35bcb415c2",
                 "position": "absolute",
                 "edgeOffsets": 33.333335876464844,
-                "Picture": "Logo (1).png"
+                "Picture": ""
             },
             "children": [],
             "id": "15f6cfe4-173c-4678-b76b-0f23017c3738",

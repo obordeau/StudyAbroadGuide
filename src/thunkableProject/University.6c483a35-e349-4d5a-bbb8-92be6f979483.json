@@ -361,7 +361,8 @@
                         "capInsets": {},
                         "ParentId": "6c483a35-e349-4d5a-bbb8-92be6f979483",
                         "position": "absolute",
-                        "edgeOffsets": 15
+                        "edgeOffsets": 15,
+                        "Picture": ""
                     },
                     "children": [],
                     "id": "1fedda35-68b7-4e12-94c7-0b643d18a4b6",

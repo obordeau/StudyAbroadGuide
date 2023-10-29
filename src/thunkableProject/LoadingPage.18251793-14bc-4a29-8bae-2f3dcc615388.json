@@ -62,7 +62,7 @@
             "label": "Animation",
             "translatedName": "Animation",
             "properties": {
-                "Animation": "animation_lmw7v65b.json",
+                "Animation": "",
                 "Loop": true,
                 "Height": 166,
                 "Width": 175,
@@ -126,7 +126,7 @@
                 "ParentId": "18251793-14bc-4a29-8bae-2f3dcc615388",
                 "position": "absolute",
                 "edgeOffsets": 68,
-                "Picture": "Logo (2).png"
+                "Picture": ""
             },
             "children": [],
             "id": "eb38d4d9-957c-4149-9224-95fcef4ca84b",
