@@ -49,15 +49,16 @@
         "ResponsiveWidth": 375,
         "isSimple": true,
         "navigationOptions": {
-            "headerStyle": {}
+            "headerStyle": {},
+            "tabBarLabel": "Profile"
         },
         "tabNavigationOptions": {
-            "inactiveTabIcon": "home-icon.svg",
-            "activeTabIcon": "home-icon-active.svg"
+            "activeTabIcon": "profile-icon-active.svg",
+            "inactiveTabIcon": "profile-icon.svg"
         }
     },
     "children": [],
-    "id": "566a014c-221f-4c25-901b-76a6636ebadc",
-    "thunkableVersion": 425,
-    "name": "Home"
+    "id": "9e68c7a5-a090-4189-a2d0-287d8e00acaf",
+    "thunkableVersion": 426,
+    "name": "ProfileSettings"
 }

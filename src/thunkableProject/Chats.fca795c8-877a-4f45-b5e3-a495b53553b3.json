@@ -52,12 +52,12 @@
             "headerStyle": {}
         },
         "tabNavigationOptions": {
-            "inactiveTabIcon": "home-icon.svg",
-            "activeTabIcon": "home-icon-active.svg"
+            "activeTabIcon": "chat-icon-active.svg",
+            "inactiveTabIcon": "chat-icon.svg"
         }
     },
     "children": [],
-    "id": "566a014c-221f-4c25-901b-76a6636ebadc",
-    "thunkableVersion": 425,
-    "name": "Home"
+    "id": "fca795c8-877a-4f45-b5e3-a495b53553b3",
+    "thunkableVersion": 426,
+    "name": "Chats"
 }
