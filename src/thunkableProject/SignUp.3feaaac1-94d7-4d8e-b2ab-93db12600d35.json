@@ -255,7 +255,7 @@
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "",
+                "Picture": "line-40947.png",
                 "resizeMode": "contain",
                 "Height": 123,
                 "Width": 377,
@@ -302,7 +302,7 @@
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "",
+                "Picture": "line-40947.png",
                 "resizeMode": "contain",
                 "Height": 125,
                 "Width": 379,
@@ -349,7 +349,7 @@
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "",
+                "Picture": "line-40947.png",
                 "resizeMode": "contain",
                 "Height": 123,
                 "Width": 377,
@@ -595,10 +595,10 @@
                 "Height": 32,
                 "Width": 252,
                 "Visible": true,
-                "X": 48,
-                "Y": 600,
-                "RelativeX": 48,
-                "RelativeY": 600,
+                "X": 38,
+                "Y": 602,
+                "RelativeX": 38,
+                "RelativeY": 602,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -639,7 +639,7 @@
                 },
                 "ParentId": "51f75d1c-6a4d-4a50-a3c0-9e35bcb415c2",
                 "position": "absolute",
-                "edgeOffsets": 600,
+                "edgeOffsets": 602,
                 "children": "Already Have An Account?",
                 "Font": "Ubuntu"
             },
@@ -688,7 +688,7 @@
                 "ParentId": "51f75d1c-6a4d-4a50-a3c0-9e35bcb415c2",
                 "position": "absolute",
                 "edgeOffsets": 33.333335876464844,
-                "Picture": ""
+                "Picture": "Logo (1).png"
             },
             "children": [],
             "id": "15f6cfe4-173c-4678-b76b-0f23017c3738",

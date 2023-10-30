@@ -1,4 +1,5 @@
 {
+    "id": "614cac1f-1ca9-4864-bd4c-1ced2befff48",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -56,8 +57,61 @@
             "inactiveTabIcon": "search-icon.svg"
         }
     },
-    "children": [],
-    "id": "614cac1f-1ca9-4864-bd4c-1ced2befff48",
+    "children": [
+        {
+            "type": "Button",
+            "translatedName": "Button",
+            "properties": {
+                "Text": "Button",
+                "TextColor": "#FFFFFF",
+                "FontSize": 16,
+                "CustomFont": "",
+                "BackgroundColor": "rgba(93, 122, 252, 100)",
+                "Height": 50,
+                "Width": 89,
+                "Visible": true,
+                "X": 200,
+                "Y": 170,
+                "RelativeX": 200,
+                "RelativeY": 170,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "borderRadius": 15,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "14.266656494140625%",
+                    "top": "21.58920539730135%",
+                    "display": "flex"
+                },
+                "FontBold": false,
+                "FontItalic": false,
+                "Raised": false,
+                "Disabled": false,
+                "ParentId": "614cac1f-1ca9-4864-bd4c-1ced2befff48",
+                "position": "absolute",
+                "edgeOffsets": 170
+            },
+            "children": [],
+            "id": "a4f02a68-1a28-422f-8220-451d3c264285",
+            "thunkableVersion": 426,
+            "name": "Button1"
+        }
+    ],
     "thunkableVersion": 426,
     "name": "Browse"
 }
