@@ -1,4 +1,5 @@
 {
+    "id": "9e68c7a5-a090-4189-a2d0-287d8e00acaf",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -57,8 +58,532 @@
             "inactiveTabIcon": "profile-icon.svg"
         }
     },
-    "children": [],
-    "id": "9e68c7a5-a090-4189-a2d0-287d8e00acaf",
+    "children": [
+        {
+            "type": "List View",
+            "label": "Data Viewer List",
+            "translatedName": "Data Viewer List",
+            "reactType": "DataViewer",
+            "properties": {
+                "Layout": "LIST",
+                "DataViewerConfig": {
+                    "layoutSelection": "LIST",
+                    "itemLayoutSelection": "IMAGE_WITH_TITLE",
+                    "swipe": {
+                        "right": {
+                            "isActive": false,
+                            "backgroundColor": "rgba(24, 144, 255, 1)",
+                            "buttonText": "Right",
+                            "textColor": "rgba(255, 255, 255, 1)"
+                        },
+                        "left": {
+                            "isActive": false,
+                            "backgroundColor": "rgba(24, 144, 255, 1)",
+                            "buttonText": "Left",
+                            "textColor": "rgba(255, 255, 255, 1)"
+                        }
+                    }
+                },
+                "Height": 287,
+                "Width": 287,
+                "Visible": true,
+                "X": 44,
+                "Y": 125,
+                "RelativeX": 44,
+                "RelativeY": 125,
+                "ResizeMode": "STRETCH",
+                "ParentId": "6c483a35-e349-4d5a-bbb8-92be6f979483",
+                "position": "absolute",
+                "edgeOffsets": 125,
+                "style": {
+                    "position": "absolute",
+                    "left": "7.24443359375%",
+                    "top": "48.02599310696215%",
+                    "display": "flex"
+                },
+                "EmptyText": ""
+            },
+            "children": [
+                {
+                    "type": "Row",
+                    "translatedName": "Row",
+                    "reactType": "ViewWithProps",
+                    "properties": {
+                        "Height": 60,
+                        "Width": "Fill container",
+                        "Layout": "row",
+                        "Justification": "flex-start",
+                        "Alignment": "center",
+                        "Visible": true,
+                        "style": {
+                            "marginTop": 2,
+                            "marginBottom": 0,
+                            "marginLeft": 0,
+                            "marginRight": 0,
+                            "paddingTop": 0,
+                            "paddingBottom": 0,
+                            "paddingLeft": 10,
+                            "paddingRight": 10,
+                            "shadowColor": "rgba(0, 0, 0, 0)",
+                            "shadowOpacity": 0,
+                            "scaledShadowOpacity": 0,
+                            "shadowRadius": 0,
+                            "shadowOffset": {
+                                "width": 0,
+                                "height": 0
+                            },
+                            "flex": 1,
+                            "alignSelf": "stretch",
+                            "display": "flex",
+                            "flexDirection": "row",
+                            "justifyContent": "flex-start",
+                            "alignItems": "center",
+                            "height": 60,
+                            "width": "100%",
+                            "flexBasis": "100%",
+                            "position": "relative"
+                        }
+                    },
+                    "children": [
+                        {
+                            "type": "Row",
+                            "translatedName": "Row",
+                            "reactType": "ViewWithProps",
+                            "properties": {
+                                "Height": "Fill container",
+                                "Width": "Fill container",
+                                "Layout": "row",
+                                "Justification": "flex-start",
+                                "Alignment": "center",
+                                "Visible": true,
+                                "style": {
+                                    "marginTop": 0,
+                                    "marginBottom": 0,
+                                    "marginLeft": 0,
+                                    "marginRight": 0,
+                                    "paddingTop": 0,
+                                    "paddingBottom": 0,
+                                    "paddingLeft": 0,
+                                    "paddingRight": 0,
+                                    "shadowColor": "rgba(0, 0, 0, 0)",
+                                    "shadowOpacity": 0,
+                                    "scaledShadowOpacity": 0,
+                                    "shadowRadius": 0,
+                                    "shadowOffset": {
+                                        "width": 0,
+                                        "height": 0
+                                    },
+                                    "flex": 0,
+                                    "height": 46,
+                                    "width": 46,
+                                    "borderRadius": 23,
+                                    "minWidth": 46,
+                                    "position": "relative"
+                                }
+                            },
+                            "children": [
+                                {
+                                    "type": "Image",
+                                    "translatedName": "Image",
+                                    "properties": {
+                                        "Height": 150,
+                                        "Width": 150,
+                                        "Visible": true,
+                                        "ResizeMode": "STRETCH",
+                                        "style": {
+                                            "marginTop": 0,
+                                            "marginBottom": 0,
+                                            "marginLeft": 0,
+                                            "marginRight": 0,
+                                            "paddingTop": 0,
+                                            "paddingBottom": 0,
+                                            "paddingLeft": 0,
+                                            "paddingRight": 0,
+                                            "shadowColor": "rgba(0, 0, 0, 0)",
+                                            "shadowOpacity": 0,
+                                            "scaledShadowOpacity": 0,
+                                            "shadowRadius": 0,
+                                            "shadowOffset": {
+                                                "width": 0,
+                                                "height": 0
+                                            },
+                                            "backgroundColor": "rgba(211, 211, 211, 1)",
+                                            "maxHeight": "100%",
+                                            "maxWidth": "100%",
+                                            "overflow": "hidden",
+                                            "height": 46,
+                                            "width": 46,
+                                            "borderRadius": 23,
+                                            "position": "relative"
+                                        },
+                                        "capInsets": {},
+                                        "ItemElementId": "main_image"
+                                    },
+                                    "children": [],
+                                    "id": "3f13ec1a-89fa-4ff2-944b-36f7c76963e0",
+                                    "thunkableVersion": 426,
+                                    "bindings": {
+                                        "Picture": {
+                                            "type": "COMPONENT_PROPERTY_TABLE_ELEMENT",
+                                            "componentId": "68180640-d1ca-4ef2-a092-3ebea392f1c3",
+                                            "property": "DataSourceTableBinding",
+                                            "column": "866ad619-2f86-4ba0-82e5-676815d32df1",
+                                            "row": 0
+                                        }
+                                    },
+                                    "name": "Image17",
+                                    "bindingLabel": "Image"
+                                }
+                            ],
+                            "id": "636ae622-f47e-41c5-b122-9796994e73f6",
+                            "thunkableVersion": 426,
+                            "bindings": {},
+                            "name": "ImageWrapper3"
+                        },
+                        {
+                            "type": "Row",
+                            "translatedName": "Row",
+                            "reactType": "ViewWithProps",
+                            "properties": {
+                                "Height": "Fill container",
+                                "Width": "Fill container",
+                                "Layout": "row",
+                                "Justification": "flex-start",
+                                "Alignment": "center",
+                                "Visible": true,
+                                "style": {
+                                    "marginTop": 0,
+                                    "marginBottom": 0,
+                                    "marginLeft": 10,
+                                    "marginRight": 10,
+                                    "paddingTop": 0,
+                                    "paddingBottom": 0,
+                                    "paddingLeft": 0,
+                                    "paddingRight": 0,
+                                    "shadowColor": "rgba(0, 0, 0, 0)",
+                                    "shadowOpacity": 0,
+                                    "scaledShadowOpacity": 0,
+                                    "shadowRadius": 0,
+                                    "shadowOffset": {
+                                        "width": 0,
+                                        "height": 0
+                                    },
+                                    "flex": 1,
+                                    "alignSelf": "stretch",
+                                    "display": "flex",
+                                    "flexDirection": "row",
+                                    "justifyContent": "flex-start",
+                                    "alignItems": "center",
+                                    "height": "100%",
+                                    "position": "relative",
+                                    "borderBottomWidth": 1,
+                                    "borderBottomColor": "rgba(155, 155, 155, 0.2)"
+                                }
+                            },
+                            "children": [
+                                {
+                                    "type": "Column",
+                                    "translatedName": "Column",
+                                    "reactType": "ViewWithProps",
+                                    "properties": {
+                                        "Height": "Fill container",
+                                        "Width": "Fill container",
+                                        "Layout": "column",
+                                        "Justification": "center",
+                                        "Alignment": "center",
+                                        "Visible": true,
+                                        "style": {
+                                            "marginTop": 0,
+                                            "marginBottom": 0,
+                                            "marginLeft": 0,
+                                            "marginRight": 0,
+                                            "paddingTop": 0,
+                                            "paddingBottom": 0,
+                                            "paddingLeft": 0,
+                                            "paddingRight": 0,
+                                            "shadowColor": "rgba(0, 0, 0, 0)",
+                                            "shadowOpacity": 0,
+                                            "scaledShadowOpacity": 0,
+                                            "shadowRadius": 0,
+                                            "shadowOffset": {
+                                                "width": 0,
+                                                "height": 0
+                                            },
+                                            "flex": 1,
+                                            "display": "flex",
+                                            "flexDirection": "column",
+                                            "justifyContent": "space-evenly",
+                                            "alignItems": "flex-start",
+                                            "position": "relative"
+                                        }
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "Column",
+                                            "translatedName": "Column",
+                                            "reactType": "ViewWithProps",
+                                            "properties": {
+                                                "Height": "Fill container",
+                                                "Width": "Fill container",
+                                                "Layout": "column",
+                                                "Justification": "center",
+                                                "Alignment": "center",
+                                                "Visible": true,
+                                                "style": {
+                                                    "marginTop": 0,
+                                                    "marginBottom": 0,
+                                                    "marginLeft": 0,
+                                                    "marginRight": 0,
+                                                    "paddingTop": 0,
+                                                    "paddingBottom": 0,
+                                                    "paddingLeft": 0,
+                                                    "paddingRight": 0,
+                                                    "shadowColor": "rgba(0, 0, 0, 0)",
+                                                    "shadowOpacity": 0,
+                                                    "scaledShadowOpacity": 0,
+                                                    "shadowRadius": 0,
+                                                    "shadowOffset": {
+                                                        "width": 0,
+                                                        "height": 0
+                                                    },
+                                                    "flex": 1,
+                                                    "display": "flex",
+                                                    "flexDirection": "column",
+                                                    "justifyContent": "center",
+                                                    "alignItems": "flex-start",
+                                                    "position": "relative"
+                                                }
+                                            },
+                                            "children": [
+                                                {
+                                                    "type": "Label",
+                                                    "translatedName": "Label",
+                                                    "reactType": "Text",
+                                                    "properties": {
+                                                        "Text": "Title",
+                                                        "FontSize": 16,
+                                                        "CustomFont": "",
+                                                        "LineHeight": 1,
+                                                        "Color": "rgba(0, 0, 0, 1)",
+                                                        "Height": "Fit contents",
+                                                        "Width": "Fit contents",
+                                                        "Visible": true,
+                                                        "ResizeMode": "STRETCH",
+                                                        "style": {
+                                                            "color": "rgba(0, 0, 0, 1)",
+                                                            "fontSize": 16,
+                                                            "fontStyle": "normal",
+                                                            "textShadowOffset": {},
+                                                            "letterSpacing": 0,
+                                                            "textDecorationLine": "none",
+                                                            "textDecorationStyle": "solid",
+                                                            "textDecorationColor": "rgba(0, 0, 0, 1)",
+                                                            "writingDirection": "auto",
+                                                            "marginTop": 0,
+                                                            "marginBottom": 4,
+                                                            "marginLeft": 0,
+                                                            "marginRight": 10,
+                                                            "paddingTop": 0,
+                                                            "paddingBottom": 0,
+                                                            "paddingLeft": 0,
+                                                            "paddingRight": 0,
+                                                            "flexWrap": "wrap",
+                                                            "borderWidth": 0,
+                                                            "borderRadius": 0,
+                                                            "borderColor": "rgba(236, 237, 237, 1)",
+                                                            "borderStyle": "solid",
+                                                            "shadowColor": "rgba(0, 0, 0, 0)",
+                                                            "shadowOpacity": 0,
+                                                            "scaledShadowOpacity": 0,
+                                                            "shadowRadius": 0,
+                                                            "shadowOffset": {
+                                                                "width": 0,
+                                                                "height": 0
+                                                            },
+                                                            "display": "flex",
+                                                            "fontFamily": "Helvetica",
+                                                            "fontWeight": "600",
+                                                            "width": "100%",
+                                                            "position": "relative"
+                                                        },
+                                                        "children": "Title",
+                                                        "ItemElementId": "main_label",
+                                                        "numberOfLines": 1,
+                                                        "ellipsizeMode": "tail"
+                                                    },
+                                                    "children": [],
+                                                    "id": "f223bbde-226c-4d07-9c7f-b3d4ce3ccbdf",
+                                                    "thunkableVersion": 426,
+                                                    "bindings": {
+                                                        "Text": {
+                                                            "type": "COMPONENT_PROPERTY_TABLE_ELEMENT",
+                                                            "componentId": "68180640-d1ca-4ef2-a092-3ebea392f1c3",
+                                                            "property": "DataSourceTableBinding",
+                                                            "column": "5a86349f-59dc-487a-8a21-e7f4bd8eb92b",
+                                                            "row": 0
+                                                        }
+                                                    },
+                                                    "name": "Title3",
+                                                    "bindingLabel": "Title"
+                                                }
+                                            ],
+                                            "id": "c91d39dc-5963-447a-bae1-6961b6c6adab",
+                                            "thunkableVersion": 426,
+                                            "bindings": {},
+                                            "name": "TitleWrapper3"
+                                        }
+                                    ],
+                                    "id": "798a390b-2f0c-4d4d-a8f8-ac46ba890818",
+                                    "thunkableVersion": 426,
+                                    "bindings": {},
+                                    "name": "TitleWrapperWrapper3"
+                                },
+                                {
+                                    "type": "Row",
+                                    "translatedName": "Row",
+                                    "reactType": "ViewWithProps",
+                                    "properties": {
+                                        "Height": "Fill container",
+                                        "Width": "Fill container",
+                                        "Layout": "row",
+                                        "Justification": "flex-end",
+                                        "Alignment": "center",
+                                        "Visible": true,
+                                        "style": {
+                                            "marginTop": 0,
+                                            "marginBottom": 0,
+                                            "marginLeft": 0,
+                                            "marginRight": 0,
+                                            "paddingTop": 0,
+                                            "paddingBottom": 0,
+                                            "paddingLeft": 0,
+                                            "paddingRight": 0,
+                                            "shadowColor": "rgba(0, 0, 0, 0)",
+                                            "shadowOpacity": 0,
+                                            "scaledShadowOpacity": 0,
+                                            "shadowRadius": 0,
+                                            "shadowOffset": {
+                                                "width": 0,
+                                                "height": 0
+                                            },
+                                            "flex": 0,
+                                            "width": "10%",
+                                            "alignSelf": "stretch",
+                                            "display": "flex",
+                                            "flexDirection": "row",
+                                            "justifyContent": "flex-end",
+                                            "alignItems": "center",
+                                            "position": "relative"
+                                        }
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "AntIcon",
+                                            "translatedName": "",
+                                            "reactType": "Icon",
+                                            "properties": {
+                                                "IconType": "right",
+                                                "IconSize": 18,
+                                                "IconColor": "#ADADAD",
+                                                "Visible": true,
+                                                "style": {
+                                                    "flex": 0,
+                                                    "width": 40,
+                                                    "display": "flex",
+                                                    "position": "relative"
+                                                }
+                                            },
+                                            "children": [],
+                                            "id": "bc38f5c4-a2c5-4825-8aa4-d2dacc0f32e4",
+                                            "thunkableVersion": 426,
+                                            "bindings": {},
+                                            "name": "Caret3"
+                                        }
+                                    ],
+                                    "id": "f8f47231-09ec-4c36-a01e-aa19c63e9310",
+                                    "thunkableVersion": 426,
+                                    "bindings": {},
+                                    "name": "CaretWrapper3"
+                                }
+                            ],
+                            "id": "cb7fb216-3ed7-4245-9f40-dc5ce3273de9",
+                            "thunkableVersion": 426,
+                            "bindings": {},
+                            "name": "TextAndCaretWrapper3"
+                        }
+                    ],
+                    "id": "18a3b33a-ac63-4cb6-b94a-96ac619a17d8",
+                    "thunkableVersion": 426,
+                    "bindings": {},
+                    "name": "LayoutWrapper3"
+                }
+            ],
+            "id": "68180640-d1ca-4ef2-a092-3ebea392f1c3",
+            "thunkableVersion": 426,
+            "bindings": {
+                "DataSourceTableBinding": {
+                    "dataSourceLinkId": "bcef2538-9117-4352-883b-9fde1e1641b1",
+                    "collectionId": "7f4aa541-91f2-4f52-bea1-80e3377ab88c",
+                    "isLocal": true,
+                    "type": "DATA_SOURCE_TABLE"
+                }
+            },
+            "name": "Data_Viewer_List5"
+        },
+        {
+            "type": "Button",
+            "translatedName": "Button",
+            "properties": {
+                "Text": "My Schools",
+                "TextColor": "#FFFFFF",
+                "FontSize": 16,
+                "CustomFont": "",
+                "BackgroundColor": "rgba(93, 122, 252, 100)",
+                "Height": 51,
+                "Width": 155,
+                "Visible": true,
+                "X": 110,
+                "Y": 18,
+                "RelativeX": 110,
+                "RelativeY": 18,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "borderRadius": 15,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "15.866656494140624%",
+                    "top": "45.877061469265364%",
+                    "display": "flex"
+                },
+                "FontBold": false,
+                "FontItalic": false,
+                "Raised": false,
+                "Disabled": false,
+                "ParentId": "9e68c7a5-a090-4189-a2d0-287d8e00acaf",
+                "position": "absolute",
+                "edgeOffsets": 18
+            },
+            "children": [],
+            "id": "b8390147-3994-4d11-916e-8be06534a2fe",
+            "thunkableVersion": 426,
+            "name": "schools_btn"
+        }
+    ],
     "thunkableVersion": 426,
     "name": "ProfileSettings"
 }
