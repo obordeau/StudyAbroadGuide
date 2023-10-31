@@ -631,44 +631,186 @@
                         "collections": [
                             {
                                 "id": "0a136766-cda9-4591-9c92-906af0691787",
-                    "id": "0e6a97bd-ee21-44b8-ba2d-f2ee118d3b52",
-                    "dataSource": {
-                        "id": "e9eef8e8-cbfa-4ec3-ba1f-2b5ec93927ac",
-                        "name": "filter_advices",
-                        "owner": "64fb6fd166b9fc9d7d940a70",
-                        "collections": [
-                            {
-                                "id": "fd319151-93d3-4d8f-b3b4-232b94d44560",
                                 "name": "Table 1",
                                 "label": "Table 1",
                                 "fields": [
                                     {
-                                        "id": "63af16ac-6367-4d7c-8882-6145ee98913f",
-                                        "label": "advisorName",
-                                        "name": "adviceType",
+                                        "id": "9d0cd7e7-1b6a-439b-9024-8177e7fd50b2",
+                                        "name": "column1",
+                                        "label": "Title",
                                         "type": "STRING"
                                     },
                                     {
-                                        "id": "fe939e4e-99e1-4492-b325-87e6e15685ec",
-                                        "label": "advisorId",
-                                        "name": "advisorId",
-                                        "type": "STRING"
-                                    },
-                                    {
-                                        "id": "a3c1c5e3-4bb4-4a4c-bd10-d4e42326d48f",
-                                        "label": "title",
-                                        "name": "title",
-                                        "type": "STRING"
-                                    },
-                                    {
-                                        "id": "a70c2d25-bb36-4ed8-b943-8885f7700139",
-                                        "label": "description",
-                                        "name": "description",
+                                        "id": "be3e6309-dffb-425a-99f6-e0d816045c2d",
+                                        "label": "title image",
+                                        "name": "title image",
                                         "type": "STRING"
                                     }
                                 ],
                                 "data": {
-                                    "edges": []
+                                    "edges": [
+                                        {
+                                            "cursor": "d30b7b18-6f4b-4224-aa49-14238dbcbfea",
+                                            "node": {
+                                                "id": "1abfae1b-684a-408b-914c-5ef9ca852e70",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "9d0cd7e7-1b6a-439b-9024-8177e7fd50b2",
+                                                        "value": "Updates"
+                                                    },
+                                                    {
+                                                        "fieldId": "be3e6309-dffb-425a-99f6-e0d816045c2d",
+                                                        "value": ""
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "dc610c8f-248e-4094-9232-1601de926db2",
+                                            "node": {
+                                                "id": "154e7bf9-878c-4e16-91fd-ef93820fe2d4",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "9d0cd7e7-1b6a-439b-9024-8177e7fd50b2",
+                                                        "value": "Events"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "e9befbc1-2065-43da-93ef-fc9f17c8c29f",
+                                            "node": {
+                                                "id": "a7b3dc88-b65c-4bf5-9149-a0c7997551c7",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "9d0cd7e7-1b6a-439b-9024-8177e7fd50b2",
+                                                        "value": "News"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "ccf9938c-c98d-467b-9cf6-5d6ea13e3620",
+                                "name": "Table 2",
+                                "label": "Table 2",
+                                "fields": [
+                                    {
+                                        "id": "09fa30dd-43c1-44fd-9757-b0ff26cd1373",
+                                        "name": "column1",
+                                        "label": "Column 1",
+                                        "type": "STRING"
+                                    },
+                                    {
+                                        "id": "dafe8b49-05cc-495f-9201-b0b5b28a6603",
+                                        "name": "column2",
+                                        "label": "Column 2",
+                                        "type": "NUMBER"
+                                    }
+                                ],
+                                "data": {
+                                    "edges": [
+                                        {
+                                            "cursor": "ac5c1a7a-4cf4-4e26-bb0a-731cd824f2ba",
+                                            "node": {
+                                                "id": "cfa052f6-c2e9-46b1-a240-63f088f76e96",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "09fa30dd-43c1-44fd-9757-b0ff26cd1373",
+                                                        "value": "a"
+                                                    },
+                                                    {
+                                                        "fieldId": "dafe8b49-05cc-495f-9201-b0b5b28a6603",
+                                                        "value": "1"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "2726eeac-0cb2-4dd5-a0fe-d378549a47f5",
+                                            "node": {
+                                                "id": "74df1815-1879-4e3a-837f-efd664180545",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "09fa30dd-43c1-44fd-9757-b0ff26cd1373",
+                                                        "value": "b"
+                                                    },
+                                                    {
+                                                        "fieldId": "dafe8b49-05cc-495f-9201-b0b5b28a6603",
+                                                        "value": "2"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "1583e4ad-b477-42f3-849a-ddef8d246ae9",
+                                            "node": {
+                                                "id": "12e0f830-856d-4319-a6a5-8ff6e841cd75",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "09fa30dd-43c1-44fd-9757-b0ff26cd1373",
+                                                        "value": "c"
+                                                    },
+                                                    {
+                                                        "fieldId": "dafe8b49-05cc-495f-9201-b0b5b28a6603",
+                                                        "value": "3"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "0e6a97bd-ee21-44b8-ba2d-f2ee118d3b52",
+                                "dataSource": {
+                                    "id": "e9eef8e8-cbfa-4ec3-ba1f-2b5ec93927ac",
+                                    "name": "filter_advices",
+                                    "owner": "64fb6fd166b9fc9d7d940a70",
+                                    "collections": [
+                                        {
+                                            "id": "fd319151-93d3-4d8f-b3b4-232b94d44560",
+                                            "name": "Table 1",
+                                            "label": "Table 1",
+                                            "fields": [
+                                                {
+                                                    "id": "63af16ac-6367-4d7c-8882-6145ee98913f",
+                                                    "label": "advisorName",
+                                                    "name": "adviceType",
+                                                    "type": "STRING"
+                                                },
+                                                {
+                                                    "id": "fe939e4e-99e1-4492-b325-87e6e15685ec",
+                                                    "label": "advisorId",
+                                                    "name": "advisorId",
+                                                    "type": "STRING"
+                                                },
+                                                {
+                                                    "id": "a3c1c5e3-4bb4-4a4c-bd10-d4e42326d48f",
+                                                    "label": "title",
+                                                    "name": "title",
+                                                    "type": "STRING"
+                                                },
+                                                {
+                                                    "id": "a70c2d25-bb36-4ed8-b943-8885f7700139",
+                                                    "label": "description",
+                                                    "name": "description",
+                                                    "type": "STRING"
+                                                }
+                                            ],
+                                            "data": {
+                                                "edges": []
+                                            }
+                                        }
+                                    ],
+                                    "configuration": {
+                                        "id": "c4957867-d14f-4c30-8fe4-93c2c93ac3b3",
+                                        "name": "filter_advices",
+                                        "owner": "64fb6fd166b9fc9d7d940a70",
+                                        "type": "LOCAL"
+                                    }
                                 }
                             }
                         ],
@@ -676,9 +818,6 @@
                             "id": "2fa51f72-d08c-4735-a45c-e2c9d373367a",
                             "name": "data_for_grid",
                             "owner": "64f9ebc59e120656db03c5a4",
-                            "id": "c4957867-d14f-4c30-8fe4-93c2c93ac3b3",
-                            "name": "filter_advices",
-                            "owner": "64fb6fd166b9fc9d7d940a70",
                             "type": "LOCAL"
                         }
                     }
@@ -721,7 +860,6 @@
                     "name": "temp/name",
                     "screenId": "6c483a35-e349-4d5a-bbb8-92be6f979483"
                 },
-
                 "68e07041-3ab7-4672-957b-fd499a8f5a43": {
                     "scope": "STORED",
                     "name": "university",
@@ -752,7 +890,6 @@
                     "name": "count",
                     "screenId": "566a014c-221f-4c25-901b-76a6636ebadc"
                 },
-
                 "1eb1ca02-10d8-4703-aa89-330b8448dd30": {
                     "scope": "APP",
                     "name": "temp/name",
@@ -787,6 +924,7 @@
                     "scope": "APP",
                     "name": "housingUnilist",
                     "screenId": "566a014c-221f-4c25-901b-76a6636ebadc"
+                },
                 "f7e70c9e-142d-481a-9695-12edf5a20e8c": {
                     "scope": "APP",
                     "name": "Label_Name",
