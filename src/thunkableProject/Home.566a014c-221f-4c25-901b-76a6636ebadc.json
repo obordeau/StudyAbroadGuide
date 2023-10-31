@@ -58,6 +58,7 @@
             "activeTabIcon": "home-icon-active.svg"
         },
         "BackgroundColor": "rgba(243, 243, 243, 1)"
+        }
     },
     "children": [
         {
