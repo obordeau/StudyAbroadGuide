@@ -544,7 +544,7 @@
                             "id": "0a33314d-da4b-47f6-90ed-f2929579ea6b",
                             "name": "follwed_universities",
                             "owner": "64fa085a66b9fc76838d7dd2",
-                            "type": "IN_MEMORY"
+                            "type": "LOCAL"
                         }
                     }
                 }
@@ -619,6 +619,11 @@
                 "389f7a55-293e-4083-9751-782af1db129e": {
                     "scope": "APP",
                     "name": "count2",
+                    "screenId": "6c483a35-e349-4d5a-bbb8-92be6f979483"
+                },
+                "f7e70c9e-142d-481a-9695-12edf5a20e8c": {
+                    "scope": "APP",
+                    "name": "Label_Name",
                     "screenId": "6c483a35-e349-4d5a-bbb8-92be6f979483"
                 }
             },

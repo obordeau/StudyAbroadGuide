@@ -1,4 +1,5 @@
 {
+    "id": "7347decb-a6b1-412e-9e3d-a068117ad5ca",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -765,7 +766,7 @@
             "children": [],
             "id": "8cba06f4-5a7b-43d5-9458-53768b133aca",
             "thunkableVersion": 426,
-            "name": "Label16"
+            "name": "Label_tag"
         },
         {
             "type": "Label",
@@ -980,7 +981,6 @@
             "name": "Group2"
         }
     ],
-    "id": "7347decb-a6b1-412e-9e3d-a068117ad5ca",
     "thunkableVersion": 426,
     "bindings": null,
     "name": "UniversityInfos"
