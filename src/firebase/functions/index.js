@@ -13,44 +13,67 @@ const airtableTable = 'Universities'; // Replace with your table name
 
 exports.syncUniversityData = onValueWritten(
     "/universitiesData/{universityId}/advices/{adviceName}/{recordId}",
-    (event) => {
+    async (event) => {
         const universityId = event.params.universityId;
         const adviceName = event.params.adviceName;
         const recordId = event.params.recordId;
-        const newValue = event.data.after.val();
+        var options = {}
+        var airtableData = {}
 
-        // if (event.data.before.exists()) {
-        //     return null;
-        //   }
-        //   // Exit when the data is deleted.
-        //   if (!event.data.after.exists()) {
-        //     return null;
-        //   }  
+        // Exit when the data is deleted.
+        if (!event.data.after.exists()) {
+            const oldValue = event.data.before.val();
 
-        logger.log("New trigger", universityId, adviceName, recordId, newValue);
-
-        // Prepare the data to send to Airtable
-        const airtableData = {
-            "records": [
-                {
-                    "fields": {}
-                },
-                {
-                    "fields": {}
+            options = {
+                hostname: 'api.airtable.com',
+                path: `/v0/${airtableBaseId}/${airtableTable}/${oldValue.id}`,
+                method: 'DELETE',
+                headers: {
+                    'Authorization': `Bearer ${airtableApiKey}`,
+                    'Content-Type': 'application/json',
                 }
-            ]
-        };
+            };
+        } else {
+            const newValue = event.data.after.val();
 
-        const options = {
-            hostname: 'api.airtable.com',
-            path: `/v0/${airtableBaseId}/${airtableTable}`,
-            method: 'POST',
-            headers: {
-                'Authorization': `Bearer ${airtableApiKey}`,
-                'Content-Type': 'application/json',
+            if (event.data.before.exists()) {
+                options = {
+                    hostname: 'api.airtable.com',
+                    path: `/v0/${airtableBaseId}/${airtableTable}/${newValue.id}`,
+                    method: 'PATCH',
+                    headers: {
+                        'Authorization': `Bearer ${airtableApiKey}`,
+                        'Content-Type': 'application/json',
+                    }
+                };
+            } else {
+                options = {
+                    hostname: 'api.airtable.com',
+                    path: `/v0/${airtableBaseId}/${airtableTable}`,
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `Bearer ${airtableApiKey}`,
+                        'Content-Type': 'application/json',
+                    }
+                };
             }
-        };
 
+            // Prepare the data to send to Airtable
+            airtableData =
+            {
+                "fields": {
+                    "universityId": universityId,
+                    "adviceType": adviceName,
+                    "advisorName": newValue.advisorName,
+                    "advisorId": newValue.advisorId,
+                    "title": newValue.title,
+                    "description": newValue.description
+                }
+            }
+                ;
+
+            logger.log("New trigger", universityId, adviceName, recordId, airtableData.fields.universityId);
+        }
 
         const airtableRequest = https.request(options, (airtableResponse) => {
             let data = '';
@@ -59,15 +82,29 @@ exports.syncUniversityData = onValueWritten(
             });
 
             airtableResponse.on('end', () => {
-                console.log('Airtable record updated:', data);
+                logger.log('Airtable record updated:', data);
+
+                // Verify if the Airtable response has an ID
+                if (!JSON.parse(data).id) {
+                    logger.error('Error updating Airtable record:', data);
+                    return;
+                }
+
+                // Update the Firebase record with the Airtable ID
+                if (!event.data.before.exists()) {
+                    event.data.after.ref.child('id').set(JSON.parse(data).id);
+                }
             });
         });
 
         airtableRequest.on('error', (error) => {
-            console.error('Error updating Airtable record:', error);
+            logger.error('Error updating Airtable record:', error);
         });
 
-        airtableRequest.write(JSON.stringify(airtableData));
+        if (event.data.after.exists()) {
+            airtableRequest.write(JSON.stringify(airtableData));
+        }
+
         airtableRequest.end();
     }
 )
