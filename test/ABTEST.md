@@ -32,7 +32,9 @@
   -Variation A (the control) provides a baseline for comparison, allowing us to measure the impact of the new search method. This variation A will only
   have the simple search bar. 
 
-# A/B Test Name: Method to increase interaction between users
+
+
+# A/B Test Name: Method to increase user engagement and interaction 
 ## User Story Number:  2,3,4
 ## Metric (from the HEART grid):  User reactivation rate, user leaves review for university page, chats messages sent
 
