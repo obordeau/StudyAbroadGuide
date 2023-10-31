@@ -623,6 +623,14 @@
                     }
                 },
                 {
+                    "id": "71fc2779-c778-451a-a195-4032358257da",
+                    "dataSource": {
+                        "id": "8ac8d667-921e-4519-aee5-25731ba0a9de",
+                        "name": "data_for_grid",
+                        "owner": "64f9ebc59e120656db03c5a4",
+                        "collections": [
+                            {
+                                "id": "0a136766-cda9-4591-9c92-906af0691787",
                     "id": "0e6a97bd-ee21-44b8-ba2d-f2ee118d3b52",
                     "dataSource": {
                         "id": "e9eef8e8-cbfa-4ec3-ba1f-2b5ec93927ac",
@@ -665,6 +673,9 @@
                             }
                         ],
                         "configuration": {
+                            "id": "2fa51f72-d08c-4735-a45c-e2c9d373367a",
+                            "name": "data_for_grid",
+                            "owner": "64f9ebc59e120656db03c5a4",
                             "id": "c4957867-d14f-4c30-8fe4-93c2c93ac3b3",
                             "name": "filter_advices",
                             "owner": "64fb6fd166b9fc9d7d940a70",
@@ -705,6 +716,12 @@
                     "name": "canMove",
                     "screenId": "08aa0a09-f8f4-4061-a426-b1b3a615b6a8"
                 },
+                "1eb1ca02-10d8-4703-aa89-330b8448dd30": {
+                    "scope": "APP",
+                    "name": "temp/name",
+                    "screenId": "6c483a35-e349-4d5a-bbb8-92be6f979483"
+                },
+
                 "68e07041-3ab7-4672-957b-fd499a8f5a43": {
                     "scope": "STORED",
                     "name": "university",
@@ -735,6 +752,7 @@
                     "name": "count",
                     "screenId": "566a014c-221f-4c25-901b-76a6636ebadc"
                 },
+
                 "1eb1ca02-10d8-4703-aa89-330b8448dd30": {
                     "scope": "APP",
                     "name": "temp/name",
@@ -745,6 +763,30 @@
                     "name": "count2",
                     "screenId": "6c483a35-e349-4d5a-bbb8-92be6f979483"
                 },
+                "dcfd6028-d66b-493f-97b1-a7a821379903": {
+                    "scope": "APP",
+                    "name": "univerisitiesList",
+                    "screenId": "566a014c-221f-4c25-901b-76a6636ebadc"
+                },
+                "1d096a47-b92e-49ad-bdf1-4bc662755458": {
+                    "scope": "APP",
+                    "name": "count2",
+                    "screenId": "566a014c-221f-4c25-901b-76a6636ebadc"
+                },
+                "b33cad93-cf9c-4547-ba33-19630b5e542e": {
+                    "scope": "APP",
+                    "name": "accomadationsUnilist",
+                    "screenId": "566a014c-221f-4c25-901b-76a6636ebadc"
+                },
+                "0a5fc01b-1fa8-4c36-8c6d-de9b5038c221": {
+                    "scope": "APP",
+                    "name": "studentlifeUnilist",
+                    "screenId": "566a014c-221f-4c25-901b-76a6636ebadc"
+                },
+                "485f0e51-ce3c-4cf8-896e-c928ee3480ba": {
+                    "scope": "APP",
+                    "name": "housingUnilist",
+                    "screenId": "566a014c-221f-4c25-901b-76a6636ebadc"
                 "f7e70c9e-142d-481a-9695-12edf5a20e8c": {
                     "scope": "APP",
                     "name": "Label_Name",
