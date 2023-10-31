@@ -178,7 +178,8 @@
                 "ParentId": "51f75d1c-6a4d-4a50-a3c0-9e35bcb415c2",
                 "position": "absolute",
                 "edgeOffsets": 250.99999999999997,
-                "placeholder": "Password"
+                "placeholder": "Password",
+                "secureTextEntry": true
             },
             "children": [],
             "id": "0730e9b4-52cc-46f9-81c9-67a99d401ec5",
@@ -243,7 +244,8 @@
                 "ParentId": "51f75d1c-6a4d-4a50-a3c0-9e35bcb415c2",
                 "position": "absolute",
                 "edgeOffsets": 299,
-                "placeholder": "Confirm Password"
+                "placeholder": "Confirm Password",
+                "secureTextEntry": true
             },
             "children": [],
             "id": "56cc27d1-f398-4fb3-a168-91f87cd8d77b",
