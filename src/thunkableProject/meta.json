@@ -495,7 +495,81 @@
             "hasBluetoothLowEnergy": null,
             "hasPushNotification": false,
             "hasAssistant": null,
-            "dataSourceLinks": [],
+            "dataSourceLinks": [
+                {
+                    "id": "654028dd043267143f66b869",
+                    "dataSource": {
+                        "id": "654028dab1a507948b2b3ace",
+                        "name": "StudyAbroadGuide Base",
+                        "configuration": {
+                            "id": "654028dab1a507c1b42b3acf",
+                            "type": "AIRTABLE",
+                            "__typename": "AirtableDataSourceConfiguration"
+                        },
+                        "collections": [
+                            {
+                                "id": "654028dcb1a50701e92b3ad0",
+                                "name": "tblPzGOzwwQcSsPql",
+                                "label": "Universities",
+                                "fields": [
+                                    {
+                                        "id": "654028dcb1a5072bb02b3ad1",
+                                        "name": "fldyMp889qqhyllkj",
+                                        "label": "advicePrimaryKey",
+                                        "type": "STRING",
+                                        "__typename": "DataSourceField"
+                                    },
+                                    {
+                                        "id": "654028dcb1a507fe7c2b3ad2",
+                                        "name": "fldYgXNB33T5p9oTZ",
+                                        "label": "universityId",
+                                        "type": "STRING",
+                                        "__typename": "DataSourceField"
+                                    },
+                                    {
+                                        "id": "654028dcb1a507884a2b3ad3",
+                                        "name": "fld4ngXT7MP0IG47O",
+                                        "label": "adviceType",
+                                        "type": "PARAGRAPH",
+                                        "__typename": "DataSourceField"
+                                    },
+                                    {
+                                        "id": "654028dcb1a50749b72b3ad4",
+                                        "name": "fldhuhdgXGrzfAzwL",
+                                        "label": "advisorName",
+                                        "type": "PARAGRAPH",
+                                        "__typename": "DataSourceField"
+                                    },
+                                    {
+                                        "id": "654067d9fe83e32832fdd19e",
+                                        "name": "fldaP0MjeA5G3WfaB",
+                                        "label": "advisorId",
+                                        "type": "PARAGRAPH",
+                                        "__typename": "DataSourceField"
+                                    },
+                                    {
+                                        "id": "654067d9fe83e32a5efdd19f",
+                                        "name": "fldR5T6S6ZNsWI14a",
+                                        "label": "title",
+                                        "type": "PARAGRAPH",
+                                        "__typename": "DataSourceField"
+                                    },
+                                    {
+                                        "id": "654067d9fe83e3cb84fdd1a0",
+                                        "name": "fldgTNxY6iU388aaw",
+                                        "label": "description",
+                                        "type": "PARAGRAPH",
+                                        "__typename": "DataSourceField"
+                                    }
+                                ],
+                                "__typename": "DataSourceCollection"
+                            }
+                        ],
+                        "__typename": "DataSource"
+                    },
+                    "__typename": "DataSourceLink"
+                }
+            ],
             "localDataSources": [
                 {
                     "id": "bcef2538-9117-4352-883b-9fde1e1641b1",
@@ -544,6 +618,56 @@
                             "id": "0a33314d-da4b-47f6-90ed-f2929579ea6b",
                             "name": "follwed_universities",
                             "owner": "64fa085a66b9fc76838d7dd2",
+                            "type": "LOCAL"
+                        }
+                    }
+                },
+                {
+                    "id": "0e6a97bd-ee21-44b8-ba2d-f2ee118d3b52",
+                    "dataSource": {
+                        "id": "e9eef8e8-cbfa-4ec3-ba1f-2b5ec93927ac",
+                        "name": "filter_advices",
+                        "owner": "64fb6fd166b9fc9d7d940a70",
+                        "collections": [
+                            {
+                                "id": "fd319151-93d3-4d8f-b3b4-232b94d44560",
+                                "name": "Table 1",
+                                "label": "Table 1",
+                                "fields": [
+                                    {
+                                        "id": "63af16ac-6367-4d7c-8882-6145ee98913f",
+                                        "label": "advisorName",
+                                        "name": "adviceType",
+                                        "type": "STRING"
+                                    },
+                                    {
+                                        "id": "fe939e4e-99e1-4492-b325-87e6e15685ec",
+                                        "label": "advisorId",
+                                        "name": "advisorId",
+                                        "type": "STRING"
+                                    },
+                                    {
+                                        "id": "a3c1c5e3-4bb4-4a4c-bd10-d4e42326d48f",
+                                        "label": "title",
+                                        "name": "title",
+                                        "type": "STRING"
+                                    },
+                                    {
+                                        "id": "a70c2d25-bb36-4ed8-b943-8885f7700139",
+                                        "label": "description",
+                                        "name": "description",
+                                        "type": "STRING"
+                                    }
+                                ],
+                                "data": {
+                                    "edges": []
+                                }
+                            }
+                        ],
+                        "configuration": {
+                            "id": "c4957867-d14f-4c30-8fe4-93c2c93ac3b3",
+                            "name": "filter_advices",
+                            "owner": "64fb6fd166b9fc9d7d940a70",
                             "type": "LOCAL"
                         }
                     }
@@ -624,6 +748,26 @@
                 "f7e70c9e-142d-481a-9695-12edf5a20e8c": {
                     "scope": "APP",
                     "name": "Label_Name",
+                    "screenId": "6c483a35-e349-4d5a-bbb8-92be6f979483"
+                },
+                "25e22b14-484d-4363-aee6-c85c6cac0018": {
+                    "scope": "APP",
+                    "name": "uni_id",
+                    "screenId": "566a014c-221f-4c25-901b-76a6636ebadc"
+                },
+                "7764f537-7ad9-4c68-ac6f-fea03e0f6251": {
+                    "scope": "APP",
+                    "name": "listOfItems",
+                    "screenId": "7347decb-a6b1-412e-9e3d-a068117ad5ca"
+                },
+                "b3523e7d-4bc9-494f-aa7b-a00fdbd1c1bb": {
+                    "scope": "APP",
+                    "name": "itemRow",
+                    "screenId": "7347decb-a6b1-412e-9e3d-a068117ad5ca"
+                },
+                "055331b8-836c-48b5-b90e-8a142d8fbf0e": {
+                    "scope": "APP",
+                    "name": "fullLabelName",
                     "screenId": "6c483a35-e349-4d5a-bbb8-92be6f979483"
                 }
             },
