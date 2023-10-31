@@ -662,7 +662,7 @@
             "type": "Button",
             "translatedName": "Button",
             "properties": {
-                "Text": "Accomadations",
+                "Text": "Accomodations",
                 "TextColor": "#FFFFFF",
                 "FontSize": 13,
                 "CustomFont": "",
