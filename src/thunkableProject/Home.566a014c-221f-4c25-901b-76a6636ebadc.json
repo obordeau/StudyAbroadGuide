@@ -662,7 +662,7 @@
             "type": "Button",
             "translatedName": "Button",
             "properties": {
-                "Text": "Accomodations",
+                "Text": "Accomadations",
                 "TextColor": "#FFFFFF",
                 "FontSize": 13,
                 "CustomFont": "",
@@ -890,52 +890,6 @@
             "name": "explore universities label"
         },
         {
-            "type": "Image",
-            "translatedName": "Image",
-            "properties": {
-                "Picture": "Logo (1).png",
-                "resizeMode": "stretch",
-                "Height": 40,
-                "Width": 40,
-                "Visible": true,
-                "X": 168,
-                "Y": 5,
-                "RelativeX": 168,
-                "RelativeY": 5,
-                "ResizeMode": "STRETCH",
-                "style": {
-                    "marginTop": 0,
-                    "marginBottom": 0,
-                    "marginLeft": 0,
-                    "marginRight": 0,
-                    "paddingTop": 0,
-                    "paddingBottom": 0,
-                    "paddingLeft": 0,
-                    "paddingRight": 0,
-                    "shadowColor": "rgba(0, 0, 0, 0)",
-                    "shadowOpacity": 0,
-                    "scaledShadowOpacity": 0,
-                    "shadowRadius": 0,
-                    "shadowOffset": {
-                        "width": 0,
-                        "height": 0
-                    },
-                    "position": "absolute",
-                    "left": "29.2%",
-                    "top": "42.57871064467766%",
-                    "display": "flex"
-                },
-                "capInsets": {},
-                "ParentId": "566a014c-221f-4c25-901b-76a6636ebadc",
-                "position": "absolute",
-                "edgeOffsets": 5.999999999999999
-            },
-            "children": [],
-            "id": "3bba4aa3-2a6a-46b8-a41d-797c17989fbc",
-            "thunkableVersion": 426,
-            "name": "logo"
-        },
-        {
             "type": "List Viewer",
             "translatedName": "Simple List",
             "reactType": "ListView",
@@ -986,13 +940,13 @@
             "children": [],
             "id": "dab5b2b3-13ba-4618-8aca-3acb5dfefa77",
             "thunkableVersion": 426,
-            "name": "Simple_List2"
+            "name": "searchList"
         },
         {
             "type": "Button",
             "translatedName": "Button",
             "properties": {
-                "Text": "search",
+                "Text": "Search",
                 "TextColor": "#FFFFFF",
                 "FontSize": 14,
                 "CustomFont": "",
@@ -1045,7 +999,7 @@
             "type": "TextInput",
             "translatedName": "Text Input",
             "properties": {
-                "Hint": "search for university",
+                "Hint": "Search for university",
                 "Height": 20,
                 "Width": 225,
                 "Visible": true,
@@ -1098,7 +1052,7 @@
                 "ParentId": "566a014c-221f-4c25-901b-76a6636ebadc",
                 "position": "absolute",
                 "edgeOffsets": 56,
-                "placeholder": "search for university"
+                "placeholder": "Search for university"
             },
             "children": [],
             "id": "2b0477a2-9864-4a0e-9d7d-44d7cd5dc9ca",
@@ -1157,6 +1111,52 @@
             "id": "917463f1-a59d-45ba-9fac-cdd9e827d94c",
             "thunkableVersion": 426,
             "name": "ckeck_out_btn"
+        },
+        {
+            "type": "Image",
+            "translatedName": "Image",
+            "properties": {
+                "Picture": "Logo (1).png",
+                "resizeMode": "stretch",
+                "Height": 75,
+                "Width": 75,
+                "Visible": true,
+                "X": 149,
+                "Y": 0,
+                "RelativeX": 149,
+                "RelativeY": 0,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "29.2%",
+                    "top": "42.57871064467766%",
+                    "display": "flex"
+                },
+                "capInsets": {},
+                "ParentId": "566a014c-221f-4c25-901b-76a6636ebadc",
+                "position": "absolute",
+                "edgeOffsets": 0
+            },
+            "children": [],
+            "id": "3bba4aa3-2a6a-46b8-a41d-797c17989fbc",
+            "thunkableVersion": 426,
+            "name": "logo"
         }
     ],
     "thunkableVersion": 425,
