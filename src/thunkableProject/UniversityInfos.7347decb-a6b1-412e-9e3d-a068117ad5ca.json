@@ -739,7 +739,7 @@
             "translatedName": "Label",
             "reactType": "Text",
             "properties": {
-                "Text": "Accomodation",
+                "Text": "Accommodation",
                 "FontSize": 18,
                 "CustomFont": "",
                 "LineHeight": 1,
@@ -792,7 +792,7 @@
                 "ParentId": "6c483a35-e349-4d5a-bbb8-92be6f979483",
                 "position": "absolute",
                 "edgeOffsets": 104,
-                "children": "Accomodation"
+                "children": "Accommodation"
             },
             "children": [],
             "id": "8cba06f4-5a7b-43d5-9458-53768b133aca",
