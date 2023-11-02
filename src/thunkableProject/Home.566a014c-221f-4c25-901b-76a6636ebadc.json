@@ -223,7 +223,7 @@
             "children": [],
             "id": "11bf0e5d-0865-4b4e-ac65-78f9a2a8acdc",
             "thunkableVersion": 426,
-            "name": "uni list accomadations"
+            "name": "uni list accommadations"
         },
         {
             "type": "Grid View",
@@ -611,8 +611,8 @@
                 "FontSize": 13,
                 "CustomFont": "",
                 "BackgroundColor": "rgba(26, 55, 77, 1)",
-                "Height": 19,
-                "Width": 90,
+                "Height": 21,
+                "Width": 94,
                 "Visible": true,
                 "X": 183,
                 "Y": 331,
@@ -648,10 +648,7 @@
                 "Disabled": false,
                 "ParentId": "566a014c-221f-4c25-901b-76a6636ebadc",
                 "position": "absolute",
-                "edgeOffsets": {
-                    "left": "47.6%",
-                    "top": "31.03448275862069%"
-                }
+                "edgeOffsets": 331
             },
             "children": [],
             "id": "59454c7c-ecc7-4e29-b3e7-401ee44fb328",
@@ -662,18 +659,18 @@
             "type": "Button",
             "translatedName": "Button",
             "properties": {
-                "Text": "Accomadations",
+                "Text": "Accommadations",
                 "TextColor": "#FFFFFF",
                 "FontSize": 13,
                 "CustomFont": "",
                 "BackgroundColor": "rgba(26, 55, 77, 1)",
-                "Height": 19,
-                "Width": 100,
+                "Height": 23,
+                "Width": 107,
                 "Visible": true,
-                "X": 68,
-                "Y": 331,
-                "RelativeX": 68,
-                "RelativeY": 331,
+                "X": 68.80000305175781,
+                "Y": 331.8000183105469,
+                "RelativeX": 68.80000305175781,
+                "RelativeY": 331.8000183105469,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -704,12 +701,12 @@
                 "Disabled": false,
                 "ParentId": "566a014c-221f-4c25-901b-76a6636ebadc",
                 "position": "absolute",
-                "edgeOffsets": 225.99999999999997
+                "edgeOffsets": 331.8000183105469
             },
             "children": [],
             "id": "936650b6-2757-4289-b2d5-ec802607a947",
             "thunkableVersion": 426,
-            "name": "accomadations btn"
+            "name": "accommadations btn"
         },
         {
             "type": "Button",
