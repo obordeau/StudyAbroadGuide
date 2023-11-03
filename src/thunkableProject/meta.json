@@ -1070,6 +1070,11 @@
                     "scope": "APP",
                     "name": "followed",
                     "screenId": "6c483a35-e349-4d5a-bbb8-92be6f979483"
+                },
+                "0f95bd70-7df5-48a2-9a06-53ef7a1daf66": {
+                    "scope": "APP",
+                    "name": "fullListAdvices",
+                    "screenId": "7347decb-a6b1-412e-9e3d-a068117ad5ca"
                 }
             },
             "defaultDesignerDevice": "PHONE",
