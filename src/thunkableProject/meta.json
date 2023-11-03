@@ -347,6 +347,9 @@
             "components": {
                 "children": [
                     {
+                        "id": "18251793-14bc-4a29-8bae-2f3dcc615388"
+                    },
+                    {
                         "type": "Bottom Tab Navigator",
                         "translatedName": "Bottom Tab Navigator",
                         "reactType": "BottomTabNavigator",
@@ -384,9 +387,6 @@
                         "id": "b631efe2-1d24-4699-a19b-9992c8ffcb2b",
                         "thunkableVersion": 426,
                         "name": "Bottom_Tab_Navigator1"
-                    },
-                    {
-                        "id": "18251793-14bc-4a29-8bae-2f3dcc615388"
                     },
                     {
                         "id": "51f75d1c-6a4d-4a50-a3c0-9e35bcb415c2"
