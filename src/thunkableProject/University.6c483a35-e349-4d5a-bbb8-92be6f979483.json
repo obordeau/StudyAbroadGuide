@@ -463,8 +463,8 @@
                 "CustomFont": "",
                 "LineHeight": 1,
                 "Color": "rgba(0, 0, 0, 0.7)",
-                "Height": 70,
-                "Width": 335,
+                "Height": 69,
+                "Width": 315,
                 "Visible": true,
                 "X": 22,
                 "Y": 582,
@@ -513,7 +513,8 @@
                 "position": "absolute",
                 "edgeOffsets": 582,
                 "children": "Read what previous students think ",
-                "TextAlign": "center"
+                "TextAlign": "center",
+                "Font": "Ubuntu"
             },
             "children": [],
             "id": "3d2c828f-ca42-46ad-8060-2bac627cbe6e",
@@ -622,7 +623,8 @@
                 "Disabled": false,
                 "ParentId": "6c483a35-e349-4d5a-bbb8-92be6f979483",
                 "position": "absolute",
-                "edgeOffsets": 395
+                "edgeOffsets": 395,
+                "Font": "Ubuntu"
             },
             "children": [],
             "id": "3ee3301f-96e3-4a71-b499-4bb86bf127a0",
@@ -692,7 +694,8 @@
                 "edgeOffsets": 439.99999237060547,
                 "children": "Discover what student life is like",
                 "BackgroundColor": "rgba(243, 243, 243, 1)",
-                "TextAlign": "center"
+                "TextAlign": "center",
+                "Font": "Ubuntu"
             },
             "children": [],
             "id": "69c66376-b23e-4c31-ae47-a27a68eea8db",
@@ -704,7 +707,7 @@
             "type": "Button",
             "translatedName": "Button",
             "properties": {
-                "Text": "Accommodations     ",
+                "Text": "Housing     ",
                 "TextColor": "#FFFFFF",
                 "FontSize": 16,
                 "CustomFont": "",
@@ -746,19 +749,20 @@
                 "Disabled": false,
                 "ParentId": "6c483a35-e349-4d5a-bbb8-92be6f979483",
                 "position": "absolute",
-                "edgeOffsets": 115
+                "edgeOffsets": 115,
+                "Font": "Ubuntu"
             },
             "children": [],
             "id": "2aa2e3b0-6744-4b01-bb53-b9cfcc0f73ac",
             "thunkableVersion": 426,
-            "name": "accom_btn"
+            "name": "housing_btn"
         },
         {
             "type": "Label",
             "translatedName": "Label",
             "reactType": "Text",
             "properties": {
-                "Text": "Accommodation  ",
+                "Text": "Discover housing options  ",
                 "FontSize": 17,
                 "CustomFont": "",
                 "LineHeight": 1,
@@ -812,7 +816,7 @@
                 "ParentId": "6c483a35-e349-4d5a-bbb8-92be6f979483",
                 "position": "absolute",
                 "edgeOffsets": 154,
-                "children": "Accommodation  ",
+                "children": "Discover housing options  ",
                 "Font": "Ubuntu",
                 "TextAlign": "center"
             },
@@ -826,7 +830,7 @@
             "translatedName": "Label",
             "reactType": "Text",
             "properties": {
-                "Text": "Discover housing options ",
+                "Text": "Discover food options ",
                 "FontSize": 18,
                 "CustomFont": "",
                 "LineHeight": 1,
@@ -881,7 +885,7 @@
                 "ParentId": "6c483a35-e349-4d5a-bbb8-92be6f979483",
                 "position": "absolute",
                 "edgeOffsets": 291,
-                "children": "Discover housing options ",
+                "children": "Discover food options ",
                 "Font": "Ubuntu",
                 "BackgroundColor": "rgba(243, 243, 243, 1)",
                 "TextAlign": "center"
@@ -896,7 +900,7 @@
             "type": "Button",
             "translatedName": "Button",
             "properties": {
-                "Text": "Housing",
+                "Text": "Food",
                 "TextColor": "#FFFFFF",
                 "FontSize": 16,
                 "CustomFont": "",
@@ -938,13 +942,14 @@
                 "Disabled": false,
                 "ParentId": "6c483a35-e349-4d5a-bbb8-92be6f979483",
                 "position": "absolute",
-                "edgeOffsets": 246
+                "edgeOffsets": 246,
+                "Font": "Ubuntu"
             },
             "children": [],
             "id": "059d0714-aed6-4d70-a910-75b433d3955d",
             "thunkableVersion": 426,
             "bindings": null,
-            "name": "housing_btn"
+            "name": "food_btn"
         },
         {
             "type": "List Viewer",
@@ -1194,7 +1199,8 @@
                         "Disabled": false,
                         "ParentId": "6c483a35-e349-4d5a-bbb8-92be6f979483",
                         "position": "absolute",
-                        "edgeOffsets": 28.333333373069763
+                        "edgeOffsets": 28.333333373069763,
+                        "Font": "Ubuntu"
                     },
                     "children": [],
                     "id": "4f96a7af-f495-48ea-a177-57de9899fa8f",
@@ -1261,7 +1267,8 @@
                         "position": "absolute",
                         "edgeOffsets": 13,
                         "children": "",
-                        "TextAlign": "center"
+                        "TextAlign": "center",
+                        "Font": "Ubuntu"
                     },
                     "children": [],
                     "id": "868f66fe-df00-4e7a-bd8e-3e0fa0f49766",

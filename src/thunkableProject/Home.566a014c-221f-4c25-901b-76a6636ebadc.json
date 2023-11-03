@@ -223,7 +223,7 @@
             "children": [],
             "id": "11bf0e5d-0865-4b4e-ac65-78f9a2a8acdc",
             "thunkableVersion": 426,
-            "name": "uni list accommadations"
+            "name": "uni list food"
         },
         {
             "type": "Grid View",
@@ -555,12 +555,12 @@
                 "FontSize": 13,
                 "CustomFont": "",
                 "BackgroundColor": "rgba(26, 55, 77, 1)",
-                "Height": 19,
-                "Width": 65,
+                "Height": 20,
+                "Width": 90,
                 "Visible": true,
-                "X": 292,
+                "X": 269,
                 "Y": 331,
-                "RelativeX": 292,
+                "RelativeX": 269,
                 "RelativeY": 331,
                 "ResizeMode": "STRETCH",
                 "style": {
@@ -592,10 +592,8 @@
                 "Disabled": false,
                 "ParentId": "566a014c-221f-4c25-901b-76a6636ebadc",
                 "position": "absolute",
-                "edgeOffsets": {
-                    "left": "42.8%",
-                    "top": "23.088455772113942%"
-                }
+                "edgeOffsets": 331,
+                "Font": "Ubuntu"
             },
             "children": [],
             "id": "6c34e947-f3c4-4185-aac4-af6697654d76",
@@ -611,12 +609,12 @@
                 "FontSize": 13,
                 "CustomFont": "",
                 "BackgroundColor": "rgba(26, 55, 77, 1)",
-                "Height": 21,
-                "Width": 94,
+                "Height": 20,
+                "Width": 90,
                 "Visible": true,
-                "X": 183,
+                "X": 167,
                 "Y": 331,
-                "RelativeX": 183,
+                "RelativeX": 167,
                 "RelativeY": 331,
                 "ResizeMode": "STRETCH",
                 "style": {
@@ -648,7 +646,8 @@
                 "Disabled": false,
                 "ParentId": "566a014c-221f-4c25-901b-76a6636ebadc",
                 "position": "absolute",
-                "edgeOffsets": 331
+                "edgeOffsets": 331,
+                "Font": "Ubuntu"
             },
             "children": [],
             "id": "59454c7c-ecc7-4e29-b3e7-401ee44fb328",
@@ -659,18 +658,18 @@
             "type": "Button",
             "translatedName": "Button",
             "properties": {
-                "Text": "Accommadations",
+                "Text": "Food",
                 "TextColor": "#FFFFFF",
                 "FontSize": 13,
                 "CustomFont": "",
                 "BackgroundColor": "rgba(26, 55, 77, 1)",
-                "Height": 23,
-                "Width": 107,
+                "Height": 20,
+                "Width": 90,
                 "Visible": true,
-                "X": 68.80000305175781,
-                "Y": 331.8000183105469,
-                "RelativeX": 68.80000305175781,
-                "RelativeY": 331.8000183105469,
+                "X": 66,
+                "Y": 331,
+                "RelativeX": 66,
+                "RelativeY": 331,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -701,12 +700,13 @@
                 "Disabled": false,
                 "ParentId": "566a014c-221f-4c25-901b-76a6636ebadc",
                 "position": "absolute",
-                "edgeOffsets": 331.8000183105469
+                "edgeOffsets": 331,
+                "Font": "Ubuntu"
             },
             "children": [],
             "id": "936650b6-2757-4289-b2d5-ec802607a947",
             "thunkableVersion": 426,
-            "name": "accommadations btn"
+            "name": "food btn"
         },
         {
             "type": "Button",
@@ -717,7 +717,7 @@
                 "FontSize": 13,
                 "CustomFont": "",
                 "BackgroundColor": "rgba(26, 55, 77, 1)",
-                "Height": 19,
+                "Height": 20,
                 "Width": 40,
                 "Visible": true,
                 "X": 15,
@@ -754,7 +754,8 @@
                 "Disabled": false,
                 "ParentId": "566a014c-221f-4c25-901b-76a6636ebadc",
                 "position": "absolute",
-                "edgeOffsets": 331
+                "edgeOffsets": 331,
+                "Font": "Ubuntu"
             },
             "children": [],
             "id": "269a14d6-c81e-4916-9f1f-8cc070c6d207",
@@ -879,7 +880,8 @@
                 "ParentId": "566a014c-221f-4c25-901b-76a6636ebadc",
                 "position": "absolute",
                 "edgeOffsets": 280,
-                "children": "Explore Universities"
+                "children": "Explore Universities",
+                "Font": "Ubuntu"
             },
             "children": [],
             "id": "b5ca1d23-de3f-42ee-adbc-7843a4c9ca6a",
@@ -985,7 +987,8 @@
                 "Disabled": false,
                 "ParentId": "566a014c-221f-4c25-901b-76a6636ebadc",
                 "position": "absolute",
-                "edgeOffsets": 50.999999999999986
+                "edgeOffsets": 50.999999999999986,
+                "Font": "Ubuntu"
             },
             "children": [],
             "id": "7e92ba48-5c17-4504-a313-0726776f49b5",
@@ -1039,7 +1042,8 @@
                     "position": "absolute",
                     "left": "24.799997965494793%",
                     "top": "13.293356373571028%",
-                    "display": "flex"
+                    "display": "flex",
+                    "fontFamily": "ubuntu"
                 },
                 "editable": true,
                 "onChangeText": "function(n){XI().f[2]++,XI().s[12]++,this.properties.Text=n}",
