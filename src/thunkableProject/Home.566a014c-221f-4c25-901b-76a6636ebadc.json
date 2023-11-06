@@ -1117,7 +1117,7 @@
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "Logo (1).png",
+                "Picture": "Logo_light.png",
                 "resizeMode": "stretch",
                 "Height": 75,
                 "Width": 75,

@@ -68,13 +68,13 @@
                 "LineHeight": 1,
                 "Color": "rgba(0, 0, 0, 1)",
                 "TextAlign": "center",
-                "Height": 39,
-                "Width": 317,
+                "Height": 36,
+                "Width": 316,
                 "Visible": true,
-                "X": 36,
-                "Y": 274,
-                "RelativeX": 36,
-                "RelativeY": 274,
+                "X": 37,
+                "Y": 275,
+                "RelativeX": 37,
+                "RelativeY": 275,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -116,7 +116,7 @@
                 },
                 "ParentId": "51f75d1c-6a4d-4a50-a3c0-9e35bcb415c2",
                 "position": "absolute",
-                "edgeOffsets": 274,
+                "edgeOffsets": 275,
                 "children": "",
                 "Font": "Ubuntu"
             },
@@ -743,7 +743,7 @@
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "line-40947.png",
+                "Picture": "faded-black-line-png-images-19.png",
                 "resizeMode": "contain",
                 "Height": 123,
                 "Width": 377,
@@ -790,7 +790,7 @@
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "line-40947.png",
+                "Picture": "faded-black-line-png-images-19.png",
                 "resizeMode": "contain",
                 "Height": 123,
                 "Width": 377,
@@ -837,7 +837,7 @@
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "line-40947.png",
+                "Picture": "faded-black-line-png-images-19.png",
                 "resizeMode": "contain",
                 "Height": 123,
                 "Width": 377,
@@ -884,7 +884,7 @@
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "line-40947.png",
+                "Picture": "faded-black-line-png-images-19.png",
                 "resizeMode": "contain",
                 "Height": 123,
                 "Width": 377,
@@ -931,7 +931,7 @@
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "line-40947.png",
+                "Picture": "faded-black-line-png-images-19.png",
                 "resizeMode": "contain",
                 "Height": 123,
                 "Width": 377,

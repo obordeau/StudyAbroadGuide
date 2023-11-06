@@ -257,7 +257,7 @@
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "line-40947.png",
+                "Picture": "faded-black-line-png-images-19.png",
                 "resizeMode": "contain",
                 "Height": 123,
                 "Width": 377,
@@ -304,7 +304,7 @@
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "line-40947.png",
+                "Picture": "faded-black-line-png-images-19.png",
                 "resizeMode": "contain",
                 "Height": 125,
                 "Width": 379,
@@ -351,7 +351,7 @@
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "line-40947.png",
+                "Picture": "faded-black-line-png-images-19.png",
                 "resizeMode": "contain",
                 "Height": 123,
                 "Width": 377,
@@ -690,7 +690,7 @@
                 "ParentId": "51f75d1c-6a4d-4a50-a3c0-9e35bcb415c2",
                 "position": "absolute",
                 "edgeOffsets": 33.333335876464844,
-                "Picture": "Logo (1).png"
+                "Picture": "Logo_light.png"
             },
             "children": [],
             "id": "15f6cfe4-173c-4678-b76b-0f23017c3738",
