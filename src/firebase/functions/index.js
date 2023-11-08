@@ -1,4 +1,5 @@
 const { onValueWritten } = require("firebase-functions/v2/database");
+const { onRequest } = require("firebase-functions/v2/https");
 const { logger } = require("firebase-functions");
 const https = require('https');
 
@@ -10,6 +11,26 @@ admin.initializeApp();
 const airtableApiKey = 'patjhvKvHgEcGFLzQ.cd819c872c9e0fae4c1093b7da6bc7f379a82c4af7f0a622c46f894aefc0d70a';
 const airtableBaseId = 'appScnYXvUlOmiyTj';
 const airtableTable = 'Universities'; // Replace with your table name
+
+// Create an endpoint that take a GET request with the userId and return the universities followed by the user in an array
+exports.getFollowedUniversities = onRequest(async (req, res) => {
+    const userId = req.query.userId;
+    const universities = [];
+
+    const followedUniversities = await admin.database().ref(`/users/${userId}/followed`).once('value');
+    followedUniversities.forEach((university) => {
+        // If the university is followed, add it to the array
+        if (university.val()) {
+            universities.push(university.key);
+        }
+    });
+
+    const universitiesResult = {
+        "followedUniversities": universities
+    }
+
+    res.json(universitiesResult);
+});
 
 exports.syncUniversityData = onValueWritten(
     "/universitiesData/{universityId}/advices/{adviceName}/{recordId}",
