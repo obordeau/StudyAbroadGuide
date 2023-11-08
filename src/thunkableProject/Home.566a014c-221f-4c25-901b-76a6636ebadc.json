@@ -1000,13 +1000,13 @@
             "translatedName": "Text Input",
             "properties": {
                 "Hint": "Search for university",
-                "Height": 20,
-                "Width": 225,
+                "Height": 22,
+                "Width": 227,
                 "Visible": true,
-                "X": 40,
-                "Y": 56,
-                "RelativeX": 40,
-                "RelativeY": 56,
+                "X": 41,
+                "Y": 57,
+                "RelativeX": 41,
+                "RelativeY": 57,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -1052,7 +1052,7 @@
                 "underlineColorAndroid": "rgba(0, 0, 0, 0)",
                 "ParentId": "566a014c-221f-4c25-901b-76a6636ebadc",
                 "position": "absolute",
-                "edgeOffsets": 56,
+                "edgeOffsets": 57,
                 "placeholder": "Search for university"
             },
             "children": [],

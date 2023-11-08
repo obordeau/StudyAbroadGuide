@@ -547,110 +547,7 @@
             "hasBluetoothLowEnergy": null,
             "hasPushNotification": false,
             "hasAssistant": null,
-            "dataSourceLinks": [
-                {
-                    "id": "654028dd043267143f66b869",
-                    "dataSource": {
-                        "id": "654028dab1a507948b2b3ace",
-                        "name": "StudyAbroadGuide Base",
-                        "configuration": {
-                            "id": "654028dab1a507c1b42b3acf",
-                            "type": "AIRTABLE",
-                            "__typename": "AirtableDataSourceConfiguration"
-                        },
-                        "collections": [
-                            {
-                                "id": "654028dcb1a50701e92b3ad0",
-                                "name": "tblPzGOzwwQcSsPql",
-                                "label": "Universities",
-                                "fields": [
-                                    {
-                                        "id": "654028dcb1a5072bb02b3ad1",
-                                        "name": "fldyMp889qqhyllkj",
-                                        "label": "advicePrimaryKey",
-                                        "type": "STRING",
-                                        "__typename": "DataSourceField"
-                                    },
-                                    {
-                                        "id": "654028dcb1a507fe7c2b3ad2",
-                                        "name": "fldYgXNB33T5p9oTZ",
-                                        "label": "universityId",
-                                        "type": "STRING",
-                                        "__typename": "DataSourceField"
-                                    },
-                                    {
-                                        "id": "654028dcb1a507884a2b3ad3",
-                                        "name": "fld4ngXT7MP0IG47O",
-                                        "label": "adviceType",
-                                        "type": "PARAGRAPH",
-                                        "__typename": "DataSourceField"
-                                    },
-                                    {
-                                        "id": "654028dcb1a50749b72b3ad4",
-                                        "name": "fldhuhdgXGrzfAzwL",
-                                        "label": "advisorName",
-                                        "type": "PARAGRAPH",
-                                        "__typename": "DataSourceField"
-                                    },
-                                    {
-                                        "id": "654067d9fe83e32832fdd19e",
-                                        "name": "fldaP0MjeA5G3WfaB",
-                                        "label": "advisorId",
-                                        "type": "PARAGRAPH",
-                                        "__typename": "DataSourceField"
-                                    },
-                                    {
-                                        "id": "654067d9fe83e32a5efdd19f",
-                                        "name": "fldR5T6S6ZNsWI14a",
-                                        "label": "title",
-                                        "type": "PARAGRAPH",
-                                        "__typename": "DataSourceField"
-                                    },
-                                    {
-                                        "id": "654067d9fe83e3cb84fdd1a0",
-                                        "name": "fldgTNxY6iU388aaw",
-                                        "label": "description",
-                                        "type": "PARAGRAPH",
-                                        "__typename": "DataSourceField"
-                                    }
-                                ],
-                                "__typename": "DataSourceCollection"
-                            },
-                            {
-                                "id": "654a63e4248250f8e1e1f482",
-                                "name": "tblKxMKNzMuVXte1S",
-                                "label": "SettingsData",
-                                "fields": [
-                                    {
-                                        "id": "654a63e4248250f8e1e1f483",
-                                        "name": "fldOuO0BEUMGGcMgi",
-                                        "label": "DataId",
-                                        "type": "STRING",
-                                        "__typename": "DataSourceField"
-                                    },
-                                    {
-                                        "id": "654a63e4248250f8e1e1f484",
-                                        "name": "fldsKrhkHTcA22zqe",
-                                        "label": "Title",
-                                        "type": "PARAGRAPH",
-                                        "__typename": "DataSourceField"
-                                    },
-                                    {
-                                        "id": "654a63e4248250f8e1e1f485",
-                                        "name": "fldIvIIHvrBbckJDE",
-                                        "label": "Icon",
-                                        "type": "IMAGE",
-                                        "__typename": "DataSourceField"
-                                    }
-                                ],
-                                "__typename": "DataSourceCollection"
-                            }
-                        ],
-                        "__typename": "DataSource"
-                    },
-                    "__typename": "DataSourceLink"
-                }
-            ],
+            "dataSourceLinks": [],
             "localDataSources": [
                 {
                     "id": "71fc2779-c778-451a-a195-4032358257da",
@@ -1112,6 +1009,26 @@
                     "scope": "APP",
                     "name": "followedList",
                     "screenId": "3c68994e-a0aa-4137-bd53-ba564c021b99"
+                },
+                "a6ddf71c-c898-4006-898f-d6b37d341764": {
+                    "scope": "CLOUD",
+                    "name": "users",
+                    "screenId": "fca795c8-877a-4f45-b5e3-a495b53553b3"
+                },
+                "890f2231-c021-4f9b-a722-3e83afc15161": {
+                    "scope": "APP",
+                    "name": "matching_users_searched",
+                    "screenId": "fca795c8-877a-4f45-b5e3-a495b53553b3"
+                },
+                "871a70b6-9766-4954-bd04-d9448f4f5626": {
+                    "scope": "APP",
+                    "name": "user_name_searched",
+                    "screenId": "fca795c8-877a-4f45-b5e3-a495b53553b3"
+                },
+                "9c969409-2ea4-4172-ba3e-0068beeb475a": {
+                    "scope": "APP",
+                    "name": "count_for_chat_search",
+                    "screenId": "fca795c8-877a-4f45-b5e3-a495b53553b3"
                 }
             },
             "defaultDesignerDevice": "PHONE",
