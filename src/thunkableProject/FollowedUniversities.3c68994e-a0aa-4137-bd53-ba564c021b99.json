@@ -1,4 +1,5 @@
 {
+    "id": "3c68994e-a0aa-4137-bd53-ba564c021b99",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -249,7 +250,6 @@
             "name": "followedLabel"
         }
     ],
-    "id": "3c68994e-a0aa-4137-bd53-ba564c021b99",
     "thunkableVersion": 428,
     "name": "FollowedUniversities"
 }

@@ -1,4 +1,5 @@
 {
+    "id": "24bd16e4-bbf0-4ee6-a7fb-5f222cadc8e1",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -513,7 +514,6 @@
             "name": "Group3"
         }
     ],
-    "id": "24bd16e4-bbf0-4ee6-a7fb-5f222cadc8e1",
     "thunkableVersion": 428,
     "bindings": null,
     "name": "UniversityAdvice"

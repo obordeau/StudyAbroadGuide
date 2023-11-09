@@ -1,4 +1,5 @@
 {
+    "id": "1b8c6c01-a2f8-40cf-94e2-38b83b19d706",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -56,7 +57,6 @@
         "tabNavigationOptions": {}
     },
     "children": [],
-    "id": "1b8c6c01-a2f8-40cf-94e2-38b83b19d706",
     "thunkableVersion": 428,
     "name": "ProfileInfo"
 }
