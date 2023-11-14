@@ -446,8 +446,8 @@
             "translatedName": "Text Input",
             "properties": {
                 "Hint": "University",
-                "Height": 40,
-                "Width": 320,
+                "Height": 42,
+                "Width": 322,
                 "Visible": true,
                 "X": 32,
                 "Y": 370,
@@ -497,7 +497,7 @@
                 "underlineColorAndroid": "rgba(0, 0, 0, 0)",
                 "ParentId": "51f75d1c-6a4d-4a50-a3c0-9e35bcb415c2",
                 "position": "absolute",
-                "edgeOffsets": 359,
+                "edgeOffsets": 370,
                 "placeholder": "University"
             },
             "children": [],
@@ -511,13 +511,13 @@
             "translatedName": "Text Input",
             "properties": {
                 "Hint": "Full name",
-                "Height": 43,
-                "Width": 319,
+                "Height": 47,
+                "Width": 323,
                 "Visible": true,
-                "X": 33,
-                "Y": 321,
-                "RelativeX": 33,
-                "RelativeY": 321,
+                "X": 34,
+                "Y": 322,
+                "RelativeX": 34,
+                "RelativeY": 322,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -562,7 +562,7 @@
                 "underlineColorAndroid": "rgba(0, 0, 0, 0)",
                 "ParentId": "51f75d1c-6a4d-4a50-a3c0-9e35bcb415c2",
                 "position": "absolute",
-                "edgeOffsets": 321,
+                "edgeOffsets": 322,
                 "placeholder": "Full name"
             },
             "children": [],
