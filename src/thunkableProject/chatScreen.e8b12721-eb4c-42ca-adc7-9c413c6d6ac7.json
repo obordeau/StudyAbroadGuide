@@ -1,5 +1,4 @@
 {
-    "id": "614cac1f-1ca9-4864-bd4c-1ced2befff48",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -7,6 +6,7 @@
         "Height": "Fill container",
         "Width": "Fill container",
         "Layout": "column",
+        "BackgroundColor": "rgba(243, 243, 243, 1)",
         "Justification": "center",
         "Alignment": "center",
         "Visible": true,
@@ -30,7 +30,8 @@
             "flexDirection": "column",
             "justifyContent": "center",
             "alignItems": "center",
-            "display": "flex"
+            "display": "flex",
+            "backgroundColor": "rgba(243, 243, 243, 1)"
         },
         "ShowStatusBar": true,
         "StatusBarStyle": "default",
@@ -52,28 +53,25 @@
         "navigationOptions": {
             "headerStyle": {}
         },
-        "tabNavigationOptions": {
-            "activeTabIcon": "search-icon-active.svg",
-            "inactiveTabIcon": "search-icon.svg"
-        }
+        "tabNavigationOptions": {}
     },
     "children": [
         {
             "type": "Button",
             "translatedName": "Button",
             "properties": {
-                "Text": "Button",
+                "Text": "<",
                 "TextColor": "#FFFFFF",
                 "FontSize": 16,
                 "CustomFont": "",
-                "BackgroundColor": "rgba(93, 122, 252, 100)",
-                "Height": 50,
-                "Width": 89,
+                "BackgroundColor": "rgba(57, 116, 162, 1)",
+                "Height": 30,
+                "Width": 30,
                 "Visible": true,
-                "X": 200,
-                "Y": 170,
-                "RelativeX": 200,
-                "RelativeY": 170,
+                "X": 30,
+                "Y": 27,
+                "RelativeX": 30,
+                "RelativeY": 27,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -94,24 +92,26 @@
                         "height": 0
                     },
                     "position": "absolute",
-                    "left": "14.266656494140625%",
-                    "top": "21.58920539730135%",
+                    "left": "36.266666666666666%",
+                    "top": "26.131932202843892%",
                     "display": "flex"
                 },
-                "FontBold": false,
+                "FontBold": true,
                 "FontItalic": false,
                 "Raised": false,
                 "Disabled": false,
-                "ParentId": "614cac1f-1ca9-4864-bd4c-1ced2befff48",
+                "ParentId": "6c483a35-e349-4d5a-bbb8-92be6f979483",
                 "position": "absolute",
-                "edgeOffsets": 170
+                "edgeOffsets": 29
             },
             "children": [],
-            "id": "a4f02a68-1a28-422f-8220-451d3c264285",
-            "thunkableVersion": 426,
-            "name": "Button1"
+            "id": "945efd1d-3ca8-4c4b-ab9e-7f16b4f4e1fa",
+            "thunkableVersion": 430,
+            "bindings": null,
+            "name": "back4"
         }
     ],
-    "thunkableVersion": 426,
-    "name": "Browse"
+    "id": "e8b12721-eb4c-42ca-adc7-9c413c6d6ac7",
+    "thunkableVersion": 430,
+    "name": "chatScreen"
 }

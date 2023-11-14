@@ -64,17 +64,17 @@
             "reactType": "ListView",
             "properties": {
                 "TextItems": [],
-                "TextItemsColor": "rgba(176, 176, 176, 1)",
+                "TextItemsColor": "rgba(0, 0, 0, 1)",
                 "TextItemsBackgroundColor": "rgba(0,0,0,0)",
                 "TextItemsFontSize": 16,
                 "ShowArrow": true,
-                "Height": 148,
-                "Width": 314,
-                "Visible": true,
-                "X": 31,
-                "Y": 71,
-                "RelativeX": 31,
-                "RelativeY": 71,
+                "Height": 218,
+                "Width": 324,
+                "Visible": false,
+                "X": 28,
+                "Y": 68,
+                "RelativeX": 28,
+                "RelativeY": 68,
                 "ResizeMode": "STRETCH",
                 "Justification": "center",
                 "Alignment": "center",
@@ -98,13 +98,13 @@
                     "position": "absolute",
                     "left": "26.266666666666666%",
                     "top": "17.691154422788607%",
-                    "display": "flex",
+                    "display": "none",
                     "justifyContent": "center",
                     "alignItems": "center"
                 },
                 "ParentId": "fca795c8-877a-4f45-b5e3-a495b53553b3",
                 "position": "absolute",
-                "edgeOffsets": 71
+                "edgeOffsets": 68
             },
             "children": [],
             "id": "23cf8bfc-0f2f-4a3e-9e52-578ce49da509",
@@ -117,7 +117,7 @@
             "properties": {
                 "Text": "Search",
                 "TextColor": "#FFFFFF",
-                "FontSize": 13,
+                "FontSize": 14,
                 "CustomFont": "",
                 "BackgroundColor": "rgba(26, 55, 77, 1)",
                 "Height": 20,
@@ -168,7 +168,7 @@
             "type": "TextInput",
             "translatedName": "Text Input",
             "properties": {
-                "Hint": "search",
+                "Hint": "Search user",
                 "Height": 22,
                 "Width": 227,
                 "Visible": true,
@@ -179,7 +179,7 @@
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
-                    "fontSize": 13,
+                    "fontSize": 14,
                     "fontStyle": "normal",
                     "textShadowOffset": {},
                     "letterSpacing": 0,
@@ -222,7 +222,7 @@
                 "ParentId": "fca795c8-877a-4f45-b5e3-a495b53553b3",
                 "position": "absolute",
                 "edgeOffsets": 24,
-                "placeholder": "search"
+                "placeholder": "Search user"
             },
             "children": [],
             "id": "700ee878-d263-49cf-85ac-13baeb9ce757",
