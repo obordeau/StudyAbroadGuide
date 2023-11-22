@@ -1,4 +1,5 @@
 {
+    "id": "fb590d8d-ec74-46ff-b327-21c3c28d8fe3",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -248,7 +249,7 @@
                             "translatedName": "Label",
                             "reactType": "Text",
                             "properties": {
-                                "Text": "Name: Jay Gomes",
+                                "Text": "",
                                 "FontSize": 18,
                                 "CustomFont": "",
                                 "LineHeight": 1,
@@ -295,7 +296,7 @@
                                     "textAlign": "center"
                                 },
                                 "ParentId": "fb590d8d-ec74-46ff-b327-21c3c28d8fe3",
-                                "children": "Name: Jay Gomes",
+                                "children": "",
                                 "Font": "Ubuntu"
                             },
                             "children": [],
@@ -525,7 +526,6 @@
             "name": "Layout1"
         }
     ],
-    "id": "fb590d8d-ec74-46ff-b327-21c3c28d8fe3",
     "thunkableVersion": 428,
     "name": "chat_inbox"
 }
