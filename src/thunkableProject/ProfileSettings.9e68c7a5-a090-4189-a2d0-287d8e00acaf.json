@@ -365,7 +365,7 @@
                                             "type": "COMPONENT_PROPERTY_TABLE_ELEMENT",
                                             "componentId": "68180640-d1ca-4ef2-a092-3ebea392f1c3",
                                             "property": "DataSourceTableBinding",
-                                            "column": "654a63e4248250f8e1e1f485",
+                                            "column": "654bcb77c3cc01bd6475ad9f",
                                             "row": 0
                                         }
                                     },
@@ -557,7 +557,7 @@
                                                             "type": "COMPONENT_PROPERTY_TABLE_ELEMENT",
                                                             "componentId": "68180640-d1ca-4ef2-a092-3ebea392f1c3",
                                                             "property": "DataSourceTableBinding",
-                                                            "column": "654a63e4248250f8e1e1f484",
+                                                            "column": "654bcb77c3cc01bd6475ad9e",
                                                             "row": 0
                                                         }
                                                     },
@@ -660,8 +660,8 @@
             "thunkableVersion": 426,
             "bindings": {
                 "DataSourceTableBinding": {
-                    "dataSourceLinkId": "654028dd043267143f66b869",
-                    "collectionId": "654a63e4248250f8e1e1f482",
+                    "dataSourceLinkId": "654bcb77126631f94542326e",
+                    "collectionId": "654bcb77c3cc01bd6475ad9c",
                     "isLocal": false,
                     "type": "DATA_SOURCE_TABLE"
                 }
