@@ -1235,11 +1235,6 @@
                     "name": "matchingUserIndexList",
                     "screenId": "fca795c8-877a-4f45-b5e3-a495b53553b3"
                 },
-                "040546a1-830e-4318-98ca-70b29c948b9f": {
-                    "scope": "APP",
-                    "name": "searchedUserID",
-                    "screenId": "fca795c8-877a-4f45-b5e3-a495b53553b3"
-                },
                 "b09eac30-0211-4f74-87a2-a6f1b88281f1": {
                     "scope": "APP",
                     "name": "index",
@@ -1256,7 +1251,7 @@
                     "screenId": "1b8c6c01-a2f8-40cf-94e2-38b83b19d706"
                 },
                 "864927f6-1012-452a-8e82-34e6e9deca33": {
-                    "scope": "APP",
+                    "scope": "STORED",
                     "name": "activeChatsID",
                     "screenId": "fca795c8-877a-4f45-b5e3-a495b53553b3"
                 },
@@ -1266,9 +1261,14 @@
                     "screenId": "fb590d8d-ec74-46ff-b327-21c3c28d8fe3"
                 },
                 "982062c4-320c-46fa-b133-5e49789228b4": {
-                    "scope": "APP",
+                    "scope": "STORED",
                     "name": "activeChatsName",
                     "screenId": "fca795c8-877a-4f45-b5e3-a495b53553b3"
+                },
+                "040546a1-830e-4318-98ca-70b29c948b9f": {
+                    "scope": "APP",
+                    "name": "searchedUserID",
+                    "screenId": "18251793-14bc-4a29-8bae-2f3dcc615388"
                 }
             },
             "defaultDesignerDevice": "PHONE",
