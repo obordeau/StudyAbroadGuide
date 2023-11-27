@@ -1,0 +1,54 @@
+#product-section {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#app-section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+#app-embed {
+    width: 100%;
+    padding: 20px;
+}
+
+ol {
+    text-align: left;
+    padding-left: 50px;
+}
+
+li {
+    color: gray;
+    padding-left: 16px;
+    margin-top: 24px;
+    position: relative;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+li:before {
+    content: '';
+    display: block;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    position: absolute;
+    top: -10px;
+    left: -30px;
+}
+
+strong {
+    color: #000;
+}
+
+li:nth-child(odd):before {
+    border-color: #1A374D;
+}
+
+li:nth-child(even):before {
+    border-color: #3974A2;
+}

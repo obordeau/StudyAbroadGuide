@@ -8,6 +8,7 @@
     <title>Study Abroad Guide</title>
     <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="universities.css">
 </head>
 
 <body>
@@ -23,6 +24,145 @@
         </div>
     </div>
 
+    <div id="uni-nav-bar">
+    </div>
+
+    <div id="university-section"></div>
+
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
+        import { getDatabase, ref, get, set, child, update, remove } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-database.js";
+
+        const firebaseConfig = {
+            apiKey: "AIzaSyCs5Ea1HlB_N81aRpukFA7tHw-_7mlH7IY",
+            authDomain: "studyabroadguide-527a0.firebaseapp.com",
+            databaseURL: "https://studyabroadguide-527a0-default-rtdb.firebaseio.com",
+            projectId: "studyabroadguide-527a0",
+            storageBucket: "studyabroadguide-527a0.appspot.com",
+            messagingSenderId: "201497460676",
+            appId: "1:201497460676:web:8f85342e5c291d0ba7ee91",
+            measurementId: "G-DV62J6VBLV"
+        };
+
+        const categoriesTitle = {
+            food: "Food",
+            housing: "Housing",
+            studentLife: "Student Life",
+            previousStudent: "Previous Students",
+            courses: "Courses",
+        };
+
+        const app = initializeApp(firebaseConfig);
+        const db = getDatabase();
+        var universities = {}
+        var selectedUniversityId = 0;
+
+        function findUniversities(callback) {
+            const dbref = ref(db);
+
+            const uniNavBar = document.getElementById('uni-nav-bar');
+
+            get(child(dbref, "/universitiesData"))
+                .then((snapshot) => {
+                    if (snapshot.exists()) {
+                        universities = snapshot.val();
+
+                        for (const universityId in universities) {
+                            if (universities.hasOwnProperty(universityId)) {
+                                const university = universities[universityId];
+
+                                const uniNavItem = document.createElement('div');
+                                // add the class selected to the first div
+                                if (universityId == 0) {
+                                    uniNavItem.classList.add('uni-nav-item', 'selected');
+                                    selectedUniversityId = universityId;
+                                } else {
+                                    uniNavItem.classList.add('uni-nav-item');
+                                }
+                                uniNavItem.innerHTML = `<a university-id="${universityId}">${university.name}</a>`;
+                                uniNavBar.appendChild(uniNavItem);
+                            }
+                        }
+
+                        callback();
+                    } else {
+                        alert("No data found");
+                    }
+                })
+                .catch((error) => {
+                    alert(error)
+                })
+
+        }
+
+        function updateAdvices() {
+            const universitySection = document.getElementById('university-section');
+            universitySection.innerHTML = '';
+
+            const university = universities[selectedUniversityId];
+
+            // if there is no advices for this university
+            if (!university.advices) {
+                const noAdvices = document.createElement('h3');
+                noAdvices.innerText = "No advices for this university yet.";
+                universitySection.appendChild(noAdvices);
+                return;
+            }
+
+            for (const category in university.advices) {
+                if (university.advices.hasOwnProperty(category)) {
+                    const categoryDiv = document.createElement('div');
+                    categoryDiv.id = category + '-category';
+                    categoryDiv.classList.add('advice-category');
+                    universitySection.appendChild(categoryDiv);
+
+                    const categoryTitle = document.createElement('h2');
+                    categoryTitle.innerText = categoriesTitle[category];
+                    categoryDiv.appendChild(categoryTitle);
+
+                    const categoryGrid = document.createElement('div');
+                    categoryGrid.id = category + '-grid';
+                    categoryGrid.classList.add('advice-grid');
+                    categoryDiv.appendChild(categoryGrid);
+
+                    const advices = university.advices[category];
+
+                    advices.forEach(advice => {
+                        const adviceCard = document.createElement('div');
+                        adviceCard.classList.add('advice-card');
+                        adviceCard.innerHTML = `
+                        <h3>${advice.title}</h3>
+                        <p>${advice.description}</p>
+                        <p class="advisor">Advisor: ${advice.advisorName}</p>`;
+
+                        categoryGrid.appendChild(adviceCard);
+                    });
+
+                }
+            }
+        }
+
+        findUniversities(function () {
+            const navLinks = document.querySelectorAll('div.uni-nav-item a');
+            navLinks.forEach(link => {
+                link.addEventListener('click', function () {
+                    const universityId = this.getAttribute('university-id');
+                    selectedUniversityId = universityId;
+
+                    // add the class selected to the div parent of the a clicked
+                    navLinks.forEach(link => {
+                        link.parentElement.classList.remove('selected');
+                    });
+                    this.parentElement.classList.add('selected');
+
+                    updateAdvices();
+                });
+            });
+
+            updateAdvices();
+        });
+
+    </script>
 </body>
 
 </html>
