@@ -12,22 +12,46 @@
 </head>
 
 <body>
-    <div class="header">
-        <div class="logo-item"><img class="logo" src="assets/Logo_blue.png"></div>
-        <div class="title-item">
-            <h1>Study Abroad Guide</h1>
+    <div class="wrapper">
+        <div class="header">
+            <div class="logo-item"><img class="logo" src="assets/Logo_blue.png"></div>
+            <div class="title-item">
+                <h1>Study Abroad Guide</h1>
+            </div>
+            <div class="nav-bar">
+                <div class="nav-item"><a href="index.html">Home</a></div>
+                <div class="nav-item selected"><a href="universities.html">Universities</a></div>
+                <div class="nav-item"><a href="userguide.html">User Guide</a></div>
+            </div>
         </div>
-        <div class="nav-bar">
-            <div class="nav-item"><a href="index.html">Home</a></div>
-            <div class="nav-item selected"><a href="universities.html">Universities</a></div>
-            <div class="nav-item"><a href="userguide.html">User Guide</a></div>
+
+        <div id="uni-nav-bar">
         </div>
-    </div>
 
-    <div id="uni-nav-bar">
+        <div id="university-section"></div>
     </div>
-
-    <div id="university-section"></div>
+    <footer>
+        <div class="footer-container">
+            <div class="logo-column">
+                <img src="assets/Logo_blue.png" alt="Logo" class="footer-logo">
+            </div>
+            <div class="pages-column">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="universities.html">Universities</a></li>
+                    <li><a href="userguide.html">User Guide</a></li>
+                    <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                    <li><a href="https://opensource.org/licenses/MIT">MIT License</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="context">
+            <p>Developed by Your Name. Icons by FontAwesome.</p>
+            <a href="https://github.com/yourusername" target="_blank">
+                <img src="github-icon.png" alt="GitHub" class="github-icon">
+            </a>
+        </div>
+    </footer>
 
     <script type="module">
         import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";

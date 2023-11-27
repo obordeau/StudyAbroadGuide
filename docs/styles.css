@@ -1,11 +1,17 @@
 body {
     text-align: center;
     margin: 0;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #F3F3F3;
     display: flex;
     flex-direction: column;
     font-family: 'Ubuntu', sans-serif;
+}
+
+.wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .logo {
@@ -74,4 +80,93 @@ body {
 
 .nav-item.selected a:before {
     width: 100%;
+}
+
+footer {
+    background-color: #1A374D;
+    background-image: url("assets/Footer.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 35px;
+    margin-top: auto;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.logo-column {
+    flex: 1;
+}
+
+.footer-logo {
+    width: 125px;
+}
+
+.pages-column {
+    flex: 2;
+}
+
+.pages-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.pages-column li {
+    margin-bottom: 10px;
+}
+
+.pages-column a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.pages-column a:hover {
+    color: #3974A2;
+}
+
+.context {
+    text-align: center;
+}
+
+.context p {
+    margin: 5px;
+}
+
+.github-icon {
+    width: 30px;
+    cursor: pointer;
+}
+
+#footer-banner {
+    max-width: 100%;
+    height: auto;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.thunkable-icon {
+    width: 40px;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 25px;
+}
+
+.github-icon {
+    width: 25px;
+    cursor: pointer;
+    margin-right: 20px;
+    padding: 9px;
+    background-color: #fff;
+    border-radius: 25px;
 }
