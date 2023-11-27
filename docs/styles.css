@@ -89,7 +89,6 @@ footer {
     background-size: contain;
     background-position: bottom;
     color: #fff;
-    padding-top: 20px;
     padding-bottom: 35px;
     margin-top: auto;
 }
@@ -101,15 +100,26 @@ footer {
 }
 
 .logo-column {
-    flex: 1;
+    width: 35%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
 
 .footer-logo {
-    width: 125px;
+    width: 100px;
+}
+
+.pages-columns {
+    width: 60%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
 
 .pages-column {
-    flex: 2;
+    width: 30%;
 }
 
 .pages-column ul {

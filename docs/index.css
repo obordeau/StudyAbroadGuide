@@ -14,12 +14,12 @@
     width: 100%;
 }
 
-ol {
+ol .alternating-colors {
     text-align: left;
     padding-left: 50px;
 }
 
-li {
+.alternating-colors li {
     color: gray;
     padding-left: 16px;
     margin-top: 24px;
@@ -28,7 +28,7 @@ li {
     line-height: 20px;
 }
 
-li:before {
+.alternating-colors li:before {
     content: '';
     display: block;
     height: 35px;
@@ -44,10 +44,10 @@ strong {
     color: #000;
 }
 
-li:nth-child(odd):before {
+.alternating-colors li:nth-child(odd):before {
     border-color: #1A374D;
 }
 
-li:nth-child(even):before {
+.alternating-colors li:nth-child(even):before {
     border-color: #3974A2;
 }
