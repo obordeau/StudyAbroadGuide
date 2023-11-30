@@ -8,6 +8,10 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+p {
+    line-height: 24px;
+}
+
 .wrapper {
     flex: 1;
     display: flex;
