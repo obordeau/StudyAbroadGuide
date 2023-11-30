@@ -30,7 +30,8 @@
             "flexDirection": "column",
             "justifyContent": "center",
             "alignItems": "center",
-            "display": "flex"
+            "display": "flex",
+            "backgroundColor": "rgba(243, 243, 243, 1)"
         },
         "ShowStatusBar": true,
         "StatusBarStyle": "default",
@@ -56,7 +57,8 @@
         "tabNavigationOptions": {
             "activeTabIcon": "profile-icon-active.svg",
             "inactiveTabIcon": "profile-icon.svg"
-        }
+        },
+        "BackgroundColor": "rgba(243, 243, 243, 1)"
     },
     "children": [
         {
@@ -660,7 +662,7 @@
             "thunkableVersion": 426,
             "bindings": {
                 "DataSourceTableBinding": {
-                    "dataSourceLinkId": "654bcb77126631f94542326e",
+                    "dataSourceLinkId": "6566265f6b4c557d9db0031e",
                     "collectionId": "654bcb77c3cc01bd6475ad9c",
                     "isLocal": false,
                     "type": "DATA_SOURCE_TABLE"
