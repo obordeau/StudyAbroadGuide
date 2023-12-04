@@ -202,10 +202,10 @@
                             "type": "Image",
                             "translatedName": "Image",
                             "properties": {
-                                "Picture": "Logo_light.png",
+                                "Picture": "Logo_blue.png",
                                 "resizeMode": "center",
-                                "Height": 76,
-                                "Width": 85,
+                                "Height": 100,
+                                "Width": 75,
                                 "Visible": true,
                                 "X": 260,
                                 "Y": 509,
