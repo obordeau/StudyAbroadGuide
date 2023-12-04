@@ -243,6 +243,54 @@
                     "__v": 0,
                     "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64fb6fd166b9fc9d7d940a70/projects/653150a8de77c898b23444a0/assets/654946bf74861008d6a6669b?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231204%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231204T150734Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=a2b95e19adfad3373cbc6d2fdfd797283b05394a00fdaf09a9a15a3d816308c88bf34b211f6e24b61339037e9a11c4120b5c4ef9459b8f43a2af8bd01904d82caff3cc63f256637e7396975241186cad0ed7c024f99302d125b819a79fd541499af69d5b67b335892a539c9ebcf5958ff683a4da41c0ab71668daecf2fd6e0af68471de10ac89c408aa3ffdc3d87454870b18adc4c252dc34907e50e3f3fcbd2667a1f7f54f44acf2c078e9543587228f44cfe932fd788f9311cc348d9601a3b1822dd1be7d0270045aac750005f686414aa4b0626c67f0dd86a4ddc697b243ba567cd29e8631dd8a77cd4ae42898cc04eb90a18d02f80aed113fe7534a4c039",
                     "signedUrlExpirationTime": 1701875254461
+                },
+                "656e30c442aaee99240955d8": {
+                    "externalStorageType": "GCS",
+                    "_id": "656e30c442aaee99240955d8",
+                    "size": "2123",
+                    "mimetype": "image/svg+xml",
+                    "encoding": "7bit",
+                    "originalname": "settings-icon.svg",
+                    "backendURI": "/project/653ec214ec9a35c9fee7db37/getasset/656e30c442aaee99240955d8",
+                    "name": "settings-icon.svg",
+                    "externalName": "users/64fb6fd166b9fc9d7d940a70/projects/653ec214ec9a35c9fee7db37/assets/656e30c442aaee99240955d8",
+                    "createdAt": "2023-12-04T20:04:20.890Z",
+                    "updatedAt": "2023-12-04T20:04:20.890Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64fb6fd166b9fc9d7d940a70/projects/653ec214ec9a35c9fee7db37/assets/656e30c442aaee99240955d8?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231204%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231204T200420Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=3a04b90bf1391f11ec101a9a141b186122056e9f7ab7faba1e650bb92b508e581dd087d0a73319119706c1eb2ac6c605f94e3512c8a1ae075326482347c831213a0829733d0cc8f95733914117e14db70adab791ba895b1f3a36efcbb7111431c40daa507c77c23f63f95becfd7b48fd5290a15c141463157a5c12087565090b53e4824acd5fe8ebb3b27a4ccb830abf2753e2f75c9c53099a39392d4444fa815ec253901015b36ee52ea69edbc61d1199c620a9afc2283ec6cee635f843195b9c51af30b3cf98c95656de149518b3c96c31487aa37fac14b7e17c7f3dfc5cd853f1b0f663efd1e2e4e255b1c797cded10da9da00f89703c79a7e9af95844a87",
+                    "signedUrlExpirationTime": 1701893060921
+                },
+                "656e30c442aaee99240955d6": {
+                    "externalStorageType": "GCS",
+                    "_id": "656e30c442aaee99240955d6",
+                    "size": "1927",
+                    "mimetype": "image/svg+xml",
+                    "encoding": "7bit",
+                    "originalname": "heart-icon.svg",
+                    "backendURI": "/project/653ec214ec9a35c9fee7db37/getasset/656e30c442aaee99240955d6",
+                    "name": "heart-icon.svg",
+                    "externalName": "users/64fb6fd166b9fc9d7d940a70/projects/653ec214ec9a35c9fee7db37/assets/656e30c442aaee99240955d6",
+                    "createdAt": "2023-12-04T20:04:20.907Z",
+                    "updatedAt": "2023-12-04T20:04:20.907Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64fb6fd166b9fc9d7d940a70/projects/653ec214ec9a35c9fee7db37/assets/656e30c442aaee99240955d6?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231204%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231204T200420Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=9662fbdef62cb1ded8e25719d280afd7d8d1086a0455271946546682bfe7fcd618695e2b47aaac050f04cff8d4539b53dbc45b61774c9273aaf2226879d14133731927186ee4f86980b07ef52731b7ee331d455222469446d499ae66bf024e2c476b7e8251d40cf8988570c5b6279a6831593faf9931d945978d7b69080ed54c94032a1b1cccc7e16b61530639806c1be1bbd403cb52fb8719c092c2f8f456b842bb2d8091268275bf2fd828e067a1460891e2603e5fbbc305101e6e635b1b1f38383fb002cf4a9452759bfa2fb24f9603b54d6a4d9b58f013d44d913e3b7810a64a862958cbc2235b82128ce02023743589853a98d54a16569d6821a3f0d802",
+                    "signedUrlExpirationTime": 1701893060944
+                },
+                "656e30c442aaee99240955dd": {
+                    "externalStorageType": "GCS",
+                    "_id": "656e30c442aaee99240955dd",
+                    "size": "993",
+                    "mimetype": "image/svg+xml",
+                    "encoding": "7bit",
+                    "originalname": "log-out-icon.svg",
+                    "backendURI": "/project/653ec214ec9a35c9fee7db37/getasset/656e30c442aaee99240955dd",
+                    "name": "log-out-icon.svg",
+                    "externalName": "users/64fb6fd166b9fc9d7d940a70/projects/653ec214ec9a35c9fee7db37/assets/656e30c442aaee99240955dd",
+                    "createdAt": "2023-12-04T20:04:20.900Z",
+                    "updatedAt": "2023-12-04T20:04:20.900Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64fb6fd166b9fc9d7d940a70/projects/653ec214ec9a35c9fee7db37/assets/656e30c442aaee99240955dd?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231204%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231204T200420Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=63cc544a79b6ee1949f82f0c254861c6397448af52e9b8681bda616e16eceb0b3f1df606db53ffe5281e8fe018a4fc807fe1a04a419d765c37af2fa23b30bbeaf73df97e005c93de3a6c2ac154aba5041bdafbab2cf16b476845128c2c4574b6c1fb9c9796a385e1a578a378b9002dd857aa922f5f24b27768ad78e23f10f1723a3ba8d2521ce8c4ace5fe1bc39b9a21e42043fce133da45a5e24c34a5a499eb712cd01ec4ea6ad16b48eae13b1e41f6e33cf8ce6b3262a8e062e7142dfadac050138544ebdde9a54befece3834d9f919918ef91869ecf522b60d02b9b46c69e24af846afcae21a97bdada0c6f6fb643faeea8eb9a90012940dba45a87cb491a",
+                    "signedUrlExpirationTime": 1701893060939
                 }
             },
             "backendUpgradeVersion": 23,
@@ -490,13 +538,28 @@
                 ]
             },
             "figmaComponents": {},
-            "description": null,
-            "icon": null,
-            "projectName": "StudyAbroadGuide latest github",
+            "description": "The Study Abroad Guide is an app catered to helping students who are looking to study abroad. This app allow students who have studied abroad to leave their review, feedback and advice to prospect students.",
+            "icon": "https://x.thunkable.com/project/653ec214ec9a35c9fee7db37/getasset/656e3024a20dd042cddc1e21",
+            "projectName": "StudyAbroadGuide",
             "settings": {
                 "teamId": null,
                 "appName": "StudyAbroadGuide",
-                "icon": null,
+                "icon": {
+                    "externalStorageType": "GCS",
+                    "_id": "656e3024a20dd042cddc1e21",
+                    "size": "16738",
+                    "mimetype": "image/png",
+                    "encoding": "7bit",
+                    "originalname": "Logo_light.png",
+                    "backendURI": "/project/653ec214ec9a35c9fee7db37/getasset/656e3024a20dd042cddc1e21",
+                    "name": "Logo_light.png",
+                    "externalName": "users/64fb6fd166b9fc9d7d940a70/projects/653ec214ec9a35c9fee7db37/assets/656e3024a20dd042cddc1e21",
+                    "createdAt": "2023-12-04T20:01:40.909Z",
+                    "updatedAt": "2023-12-04T20:01:40.909Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64fb6fd166b9fc9d7d940a70/projects/653ec214ec9a35c9fee7db37/assets/656e3024a20dd042cddc1e21?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231204%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231204T200140Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=7eac8a499018ff5faa10e44276fcc9c170cb8368dc69732706a2e6d15c8cd13df754c434e0d0a4e6004206ca8b71449e0ce21bcdb4b9d854185cbd34fa67adff81d682600a76b4c518089ca21c1cbdbdeac3a55888fbd36b6a4616aa0e990729d2acf9e1562cb2f5879e90f8656c581d8c1861ceb811f473390617bbaa3592f02ec438af23f9bd0c5148263f1b921ed1c8561108239d91d75832cf7e73c5b3cb9b1c33290a047a520a2473231123ba0df2705933db627212bfddb96f51be4c47149b588253658389002d365e4aeca69c7b9cdab41da5f49f572cf1af949eeae4eeb9370125572965a98cbfda84ec0143302f79a0db8d5dc8d05ff9145ab4fe2a",
+                    "signedUrlExpirationTime": 1701892900939
+                },
                 "autoIncrementVersion": true,
                 "ignoreNotchArea": false,
                 "notchAreaColor": null,
@@ -511,7 +574,7 @@
                 "stripeAccountId": null,
                 "stripeTestMode": true,
                 "isPublic": true,
-                "description": null,
+                "description": "The Study Abroad Guide is an app catered to helping students who are looking to study abroad. This app allow students who have studied abroad to leave their review, feedback and advice to prospect students.",
                 "mobileTutorial": null,
                 "pushNotificationAndroidAppId": null,
                 "pushNotificationIOSAppId": null,
@@ -542,7 +605,22 @@
             "projectSettings": {
                 "teamId": null,
                 "appName": "StudyAbroadGuide",
-                "icon": null,
+                "icon": {
+                    "externalStorageType": "GCS",
+                    "_id": "656e3024a20dd042cddc1e21",
+                    "size": "16738",
+                    "mimetype": "image/png",
+                    "encoding": "7bit",
+                    "originalname": "Logo_light.png",
+                    "backendURI": "/project/653ec214ec9a35c9fee7db37/getasset/656e3024a20dd042cddc1e21",
+                    "name": "Logo_light.png",
+                    "externalName": "users/64fb6fd166b9fc9d7d940a70/projects/653ec214ec9a35c9fee7db37/assets/656e3024a20dd042cddc1e21",
+                    "createdAt": "2023-12-04T20:01:40.909Z",
+                    "updatedAt": "2023-12-04T20:01:40.909Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64fb6fd166b9fc9d7d940a70/projects/653ec214ec9a35c9fee7db37/assets/656e3024a20dd042cddc1e21?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231204%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231204T200140Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=7eac8a499018ff5faa10e44276fcc9c170cb8368dc69732706a2e6d15c8cd13df754c434e0d0a4e6004206ca8b71449e0ce21bcdb4b9d854185cbd34fa67adff81d682600a76b4c518089ca21c1cbdbdeac3a55888fbd36b6a4616aa0e990729d2acf9e1562cb2f5879e90f8656c581d8c1861ceb811f473390617bbaa3592f02ec438af23f9bd0c5148263f1b921ed1c8561108239d91d75832cf7e73c5b3cb9b1c33290a047a520a2473231123ba0df2705933db627212bfddb96f51be4c47149b588253658389002d365e4aeca69c7b9cdab41da5f49f572cf1af949eeae4eeb9370125572965a98cbfda84ec0143302f79a0db8d5dc8d05ff9145ab4fe2a",
+                    "signedUrlExpirationTime": 1701892900939
+                },
                 "autoIncrementVersion": true,
                 "ignoreNotchArea": false,
                 "notchAreaColor": null,
@@ -557,7 +635,7 @@
                 "stripeAccountId": null,
                 "stripeTestMode": true,
                 "isPublic": true,
-                "description": null,
+                "description": "The Study Abroad Guide is an app catered to helping students who are looking to study abroad. This app allow students who have studied abroad to leave their review, feedback and advice to prospect students.",
                 "mobileTutorial": null,
                 "pushNotificationAndroidAppId": null,
                 "pushNotificationIOSAppId": null,
@@ -591,65 +669,65 @@
             "hasAssistant": null,
             "dataSourceLinks": [
                 {
-                    "id": "6553a46c83fc953aa5893f7e",
+                    "id": "6541233070efdee5d71546c8",
                     "dataSource": {
-                        "id": "6553a46bdc9a542b7176f381",
+                        "id": "654028dab1a507948b2b3ace",
                         "name": "StudyAbroadGuide Base",
                         "configuration": {
-                            "id": "6553a46bab38a3cce3968b20",
+                            "id": "654028dab1a507c1b42b3acf",
                             "type": "AIRTABLE",
                             "__typename": "AirtableDataSourceConfiguration"
                         },
                         "collections": [
                             {
-                                "id": "6553a46b83fc953aa5893f2f",
+                                "id": "654028dcb1a50701e92b3ad0",
                                 "name": "tblPzGOzwwQcSsPql",
                                 "label": "Universities",
                                 "fields": [
                                     {
-                                        "id": "6553a46b83fc953aa5893f30",
+                                        "id": "654028dcb1a5072bb02b3ad1",
                                         "name": "fldyMp889qqhyllkj",
                                         "label": "advicePrimaryKey",
                                         "type": "STRING",
                                         "__typename": "DataSourceField"
                                     },
                                     {
-                                        "id": "6553a46b83fc953aa5893f31",
+                                        "id": "654028dcb1a507fe7c2b3ad2",
                                         "name": "fldYgXNB33T5p9oTZ",
                                         "label": "universityId",
                                         "type": "STRING",
                                         "__typename": "DataSourceField"
                                     },
                                     {
-                                        "id": "6553a46b83fc953aa5893f32",
+                                        "id": "654028dcb1a507884a2b3ad3",
                                         "name": "fld4ngXT7MP0IG47O",
                                         "label": "adviceType",
                                         "type": "PARAGRAPH",
                                         "__typename": "DataSourceField"
                                     },
                                     {
-                                        "id": "6553a46b83fc953aa5893f33",
+                                        "id": "654028dcb1a50749b72b3ad4",
                                         "name": "fldhuhdgXGrzfAzwL",
                                         "label": "advisorName",
                                         "type": "PARAGRAPH",
                                         "__typename": "DataSourceField"
                                     },
                                     {
-                                        "id": "6553a46b83fc953aa5893f34",
+                                        "id": "654067d9fe83e32832fdd19e",
                                         "name": "fldaP0MjeA5G3WfaB",
                                         "label": "advisorId",
                                         "type": "PARAGRAPH",
                                         "__typename": "DataSourceField"
                                     },
                                     {
-                                        "id": "6553a46b83fc953aa5893f35",
+                                        "id": "654067d9fe83e32a5efdd19f",
                                         "name": "fldR5T6S6ZNsWI14a",
                                         "label": "title",
                                         "type": "PARAGRAPH",
                                         "__typename": "DataSourceField"
                                     },
                                     {
-                                        "id": "6553a46b83fc953aa5893f36",
+                                        "id": "654067d9fe83e3cb84fdd1a0",
                                         "name": "fldgTNxY6iU388aaw",
                                         "label": "description",
                                         "type": "PARAGRAPH",
@@ -659,26 +737,26 @@
                                 "__typename": "DataSourceCollection"
                             },
                             {
-                                "id": "6553a46b83fc953aa5893f37",
+                                "id": "654a63e4248250f8e1e1f482",
                                 "name": "tblKxMKNzMuVXte1S",
                                 "label": "SettingsData",
                                 "fields": [
                                     {
-                                        "id": "6553a46b83fc953aa5893f38",
+                                        "id": "654a63e4248250f8e1e1f483",
                                         "name": "fldOuO0BEUMGGcMgi",
                                         "label": "DataId",
                                         "type": "STRING",
                                         "__typename": "DataSourceField"
                                     },
                                     {
-                                        "id": "6553a46b83fc953aa5893f39",
+                                        "id": "654a63e4248250f8e1e1f484",
                                         "name": "fldsKrhkHTcA22zqe",
                                         "label": "Title",
                                         "type": "PARAGRAPH",
                                         "__typename": "DataSourceField"
                                     },
                                     {
-                                        "id": "6553a46b83fc953aa5893f3a",
+                                        "id": "654a63e4248250f8e1e1f485",
                                         "name": "fldIvIIHvrBbckJDE",
                                         "label": "Icon",
                                         "type": "IMAGE",
@@ -1178,6 +1256,75 @@
                             "name": "tempMessages",
                             "owner": "64fa085a66b9fc76838d7dd2",
                             "type": "IN_MEMORY"
+                        }
+                    }
+                },
+                {
+                    "id": "0da5f9f6-9c85-4a9b-a7b8-97808f8a0a6a",
+                    "dataSource": {
+                        "id": "5cd157de-a2d4-4cee-99ec-7b3818a0302c",
+                        "name": "settingsCategories",
+                        "owner": "64fb6fd166b9fc9d7d940a70",
+                        "collections": [
+                            {
+                                "id": "82ec951f-2902-40b1-b847-9679a200120f",
+                                "name": "Table 1",
+                                "label": "Table 1",
+                                "fields": [
+                                    {
+                                        "id": "b159935b-0384-4d65-aea2-0eec1cbeceb7",
+                                        "name": "column1",
+                                        "label": "Title",
+                                        "type": "STRING"
+                                    }
+                                ],
+                                "data": {
+                                    "edges": [
+                                        {
+                                            "cursor": "3ce89e0f-ec1b-4fa2-a620-6449fff52872",
+                                            "node": {
+                                                "id": "ec1b6d3d-2ad6-4927-b81d-bf77cd7b79ca",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "b159935b-0384-4d65-aea2-0eec1cbeceb7",
+                                                        "value": "Followed universities"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "fa07de33-18a5-475f-86f4-3c4ae3685558",
+                                            "node": {
+                                                "id": "940ff6c5-ca25-488d-8290-223419054ec7",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "b159935b-0384-4d65-aea2-0eec1cbeceb7",
+                                                        "value": "Change my info"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "92a9ed99-a743-46c5-a74a-038ce5f4563f",
+                                            "node": {
+                                                "id": "c9b669dc-afb8-421e-b309-49d2d45cce3c",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "b159935b-0384-4d65-aea2-0eec1cbeceb7",
+                                                        "value": "Log out"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "configuration": {
+                            "id": "8984e7d0-7c9a-4255-970f-73f9c6794605",
+                            "name": "settingsCategories",
+                            "owner": "64fb6fd166b9fc9d7d940a70",
+                            "type": "LOCAL"
                         }
                     }
                 }
