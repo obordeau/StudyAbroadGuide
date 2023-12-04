@@ -30,7 +30,8 @@
             "flexDirection": "column",
             "justifyContent": "center",
             "alignItems": "center",
-            "display": "flex"
+            "display": "flex",
+            "backgroundColor": "rgba(243, 243, 243, 1)"
         },
         "ShowStatusBar": true,
         "StatusBarStyle": "default",
@@ -55,7 +56,8 @@
         "tabNavigationOptions": {
             "activeTabIcon": "search-icon-active.svg",
             "inactiveTabIcon": "search-icon.svg"
-        }
+        },
+        "BackgroundColor": "rgba(243, 243, 243, 1)"
     },
     "children": [
         {
