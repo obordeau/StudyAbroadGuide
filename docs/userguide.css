@@ -21,7 +21,7 @@
 .feature-item {
     width: 100%;
     overflow: hidden;
-    border-radius: 8px;
+    border-radius: 25px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #fff;
     display: flex;
@@ -41,7 +41,7 @@
 .feature-item img {
     width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 25px;
     display: block;
 }
 
