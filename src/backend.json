@@ -1,125 +1,92 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "type": "object",
-    "properties": {
-        "users": {
-            "type": "object",
-            "patternProperties": {
-                "^[0-9A-Za-z]{32}$": {
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "chats": {
+      "type": "object",
+      "properties": {
+        "chatroom": {
+          "type": "object",
+          "patternProperties": {
+            "^[a-zA-Z0-9]+$": {
+              "type": "object",
+              "properties": {
+                "lastmessage": { "type": "string" },
+                "messages": {
+                  "type": "array",
+                  "items": {
                     "type": "object",
                     "properties": {
-                        "fullName": {
-                            "type": "string"
-                        },
-                        "major": {
-                            "type": "string"
-                        },
-                        "minor": {
-                            "type": "string"
-                        },
-                        "universities": {
-                            "type": "array",
-                            "items": {
-                                "type": "object",
-                                "properties": {
-                                    "name": {
-                                        "type": "string"
-                                    },
-                                    "year": {
-                                        "type": "integer"
-                                    }
-                                },
-                                "required": [
-                                    "name",
-                                    "year"
-                                ]
-                            }
-                        }
+                      "content": { "type": "string" },
+                      "sentBy": { "type": "string" }
                     },
-                    "required": [
-                        "fullName",
-                        "major",
-                        "minor",
-                        "universities"
-                    ]
+                    "required": ["content", "sentBy"]
+                  }
                 }
+              },
+              "required": ["lastmessage", "messages"]
             }
-        },
-        "universitiesData": {
-            "type": "array",
-            "items": {
-                "type": "object",
-                "properties": {
-                    "localisation": {
-                        "type": "string"
-                    },
-                    "name": {
-                        "type": "string"
-                    },
-                    "advices": {
-                        "type": "object",
-                        "properties": {
-                            "food": {
-                                "type": "array",
-                                "items": {
-                                    "type": "object",
-                                    "properties": {
-                                        "advisor": {
-                                            "type": "string"
-                                        },
-                                        "name": {
-                                            "type": "string"
-                                        },
-                                        "description": {
-                                            "type": "string"
-                                        }
-                                    },
-                                    "required": [
-                                        "advisor",
-                                        "name",
-                                        "description"
-                                    ]
-                                }
-                            },
-                            "accomodation": {
-                                "type": "array",
-                                "items": {
-                                    "type": "object",
-                                    "properties": {
-                                        "advisor": {
-                                            "type": "string"
-                                        },
-                                        "name": {
-                                            "type": "string"
-                                        },
-                                        "description": {
-                                            "type": "string"
-                                        }
-                                    },
-                                    "required": [
-                                        "advisor",
-                                        "name",
-                                        "description"
-                                    ]
-                                }
-                            }
-                        },
-                        "required": [
-                            "food",
-                            "accomodation"
-                        ]
-                    }
-                },
-                "required": [
-                    "localisation",
-                    "name",
-                    "advices"
-                ]
-            }
+          }
         }
+      }
     },
-    "required": [
-        "users",
-        "universitiesData"
-    ]
+    "universitiesData": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "advices": {
+            "type": "object",
+            "properties": {
+              "food": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "advisorId": { "type": "string" },
+                    "advisorName": { "type": "string" },
+                    "description": { "type": "string" },
+                    "id": { "type": "string" },
+                    "title": { "type": "string" }
+                  },
+                  "required": ["advisorId", "advisorName", "description", "id", "title"]
+                }
+              }
+              // ... Repeat similar structure for other advice types
+            }
+          },
+          "bestpart": { "type": "string" },
+          "index": { "type": "string" },
+          "localisation": { "type": "string" },
+          "name": { "type": "string" }
+        },
+        "required": ["advices", "bestpart", "index", "localisation", "name"]
+      }
+    },
+    "users": {
+      "type": "object",
+      "patternProperties": {
+        "^[a-zA-Z0-9]+$": {
+          "type": "object",
+          "properties": {
+            "about": { "type": "string" },
+            "chats": {
+              "type": "object",
+              "patternProperties": {
+                "^[a-zA-Z0-9]+$": {
+                  "type": ["object", "boolean"]
+                }
+              }
+            },
+            "fullName": { "type": "string" },
+            "majorsAndMinors": { "type": "string" },
+            "origin": { "type": "string" },
+            "university": { "type": "string" }
+          },
+          "required": ["about", "chats", "fullName", "majorsAndMinors", "origin", "university"]
+        }
+      }
+    }
+  },
+  "required": ["chats", "universitiesData", "users"]
 }
