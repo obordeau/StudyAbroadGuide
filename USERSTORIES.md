@@ -37,7 +37,7 @@
 - A user can send a message to another user and receive the messages he sends
 
 
-# Discarded User Stories
+# Discarded or Reformulated User Stories
 ## Browse and search for programs abroad
 
 **User Story**: AS A [current URI student looking to study abroad](https://docs.google.com/presentation/d/1sbAjLwfLqEJ79Eh1rdmuhzWfYetgkLcDNvCNk34xBnA/edit#slide=id.g28bf3e59363_0_12), I WANT TO use the app to look at available study abroad programs in the target country, SO THAT I can decide which program to apply to study at.
