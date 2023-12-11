@@ -59,6 +59,53 @@
     },
     "children": [
         {
+            "type": "Image",
+            "translatedName": "Image",
+            "properties": {
+                "Picture": "icons8-back-arrow-50.png",
+                "resizeMode": "contain",
+                "Height": 40,
+                "Width": 46,
+                "Visible": true,
+                "X": 15,
+                "Y": 106,
+                "RelativeX": 15,
+                "RelativeY": 106,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "7.155546061197916%",
+                    "top": "13.793103448275861%",
+                    "display": "flex"
+                },
+                "capInsets": {},
+                "ParentId": "6c483a35-e349-4d5a-bbb8-92be6f979483",
+                "position": "absolute",
+                "edgeOffsets": 106
+            },
+            "children": [],
+            "id": "0a104b66-072e-48e7-a366-211b484b5279",
+            "thunkableVersion": 435,
+            "bindings": null,
+            "name": "Image27"
+        },
+        {
             "type": "Label",
             "translatedName": "Label",
             "reactType": "Text",
@@ -241,59 +288,6 @@
             "id": "0404f034-3eb3-4a15-8fb1-d6b72909264f",
             "thunkableVersion": 428,
             "name": "title_label"
-        },
-        {
-            "type": "Button",
-            "translatedName": "Button",
-            "properties": {
-                "Text": "<",
-                "TextColor": "#FFFFFF",
-                "FontSize": 16,
-                "CustomFont": "",
-                "BackgroundColor": "rgba(57, 116, 162, 1)",
-                "Height": 30,
-                "Width": 30,
-                "Visible": true,
-                "X": 25,
-                "Y": 109,
-                "RelativeX": 25,
-                "RelativeY": 109,
-                "ResizeMode": "STRETCH",
-                "style": {
-                    "marginTop": 0,
-                    "marginBottom": 0,
-                    "marginLeft": 0,
-                    "marginRight": 0,
-                    "paddingTop": 0,
-                    "paddingBottom": 0,
-                    "paddingLeft": 0,
-                    "paddingRight": 0,
-                    "borderRadius": 15,
-                    "shadowColor": "rgba(0, 0, 0, 0)",
-                    "shadowOpacity": 0,
-                    "scaledShadowOpacity": 0,
-                    "shadowRadius": 0,
-                    "shadowOffset": {
-                        "width": 0,
-                        "height": 0
-                    },
-                    "position": "absolute",
-                    "left": "36.266666666666666%",
-                    "top": "26.131932202843892%",
-                    "display": "flex"
-                },
-                "FontBold": true,
-                "FontItalic": false,
-                "Raised": false,
-                "Disabled": false,
-                "ParentId": "6c483a35-e349-4d5a-bbb8-92be6f979483",
-                "position": "absolute",
-                "edgeOffsets": 109
-            },
-            "children": [],
-            "id": "941a8bf1-f472-4be7-bd14-e10628678fc6",
-            "thunkableVersion": 426,
-            "name": "back2"
         },
         {
             "type": "Label",

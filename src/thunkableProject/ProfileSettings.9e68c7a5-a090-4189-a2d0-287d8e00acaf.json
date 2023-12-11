@@ -224,10 +224,10 @@
                 "Height": 45,
                 "Width": 311,
                 "Visible": true,
-                "X": 31,
-                "Y": 553,
-                "RelativeX": 31,
-                "RelativeY": 553,
+                "X": 33,
+                "Y": 543,
+                "RelativeX": 33,
+                "RelativeY": 543,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(255, 0, 0, 1)",
@@ -269,7 +269,7 @@
                 },
                 "ParentId": "9e68c7a5-a090-4189-a2d0-287d8e00acaf",
                 "position": "absolute",
-                "edgeOffsets": 553,
+                "edgeOffsets": 543,
                 "children": ""
             },
             "children": [],
