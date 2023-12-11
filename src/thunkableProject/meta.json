@@ -6,25 +6,6 @@
                     "id": "ApiContainer",
                     "children": [
                         {
-                            "type": "Alert",
-                            "translatedName": "Alert",
-                            "isApi": true,
-                            "properties": {
-                                "Title": "test",
-                                "Message": "test",
-                                "ConfirmButton": {
-                                    "Text": "Confirm"
-                                },
-                                "CancelButton": {
-                                    "Text": "Cancel"
-                                }
-                            },
-                            "children": [],
-                            "id": "0e887711-1583-4d26-8bc7-38a041e07200",
-                            "thunkableVersion": 435,
-                            "name": "Alert1"
-                        },
-                        {
                             "type": "Web API",
                             "translatedName": "Web API",
                             "isApi": true,
@@ -49,23 +30,6 @@
                             "id": "10483efa-163f-4d53-b9d0-3714666e06af",
                             "thunkableVersion": 428,
                             "name": "getFollowedUniversities"
-                        },
-                        {
-                            "type": "In App Purchase",
-                            "translatedName": "In-App Purchase",
-                            "isApi": true,
-                            "reactType": "InAppPurchase",
-                            "properties": {
-                                "ItemAndroidList": [],
-                                "SubscriptionAndroidList": [],
-                                "ItemIOSList": [],
-                                "SubscriptionItemIOSList": [],
-                                "UseGooglePlayCache": false
-                            },
-                            "children": [],
-                            "id": "a1340b11-8c21-4632-b135-838c41338367",
-                            "thunkableVersion": 425,
-                            "name": "In-App_Purchase1"
                         }
                     ]
                 }
@@ -633,7 +597,7 @@
                 "isPublic": true,
                 "description": "The Study Abroad Guide is an app catered to helping students who are looking to study abroad. This app allow students who have studied abroad to leave their review, feedback and advice to prospect students.",
                 "mobileTutorial": null,
-                "pushNotificationAndroidAppId": "c02f2c3a-3ab6-4728-a27c-4297e0a4dfa9",
+                "pushNotificationAndroidAppId": "",
                 "pushNotificationIOSAppId": "",
                 "pushNotificationGeolocationEnabled": null,
                 "yandexAPIKey": null,
@@ -694,7 +658,7 @@
                 "isPublic": true,
                 "description": "The Study Abroad Guide is an app catered to helping students who are looking to study abroad. This app allow students who have studied abroad to leave their review, feedback and advice to prospect students.",
                 "mobileTutorial": null,
-                "pushNotificationAndroidAppId": "c02f2c3a-3ab6-4728-a27c-4297e0a4dfa9",
+                "pushNotificationAndroidAppId": "",
                 "pushNotificationIOSAppId": "",
                 "pushNotificationGeolocationEnabled": null,
                 "yandexAPIKey": null,
@@ -722,69 +686,69 @@
             },
             "hasAdmob": false,
             "hasBluetoothLowEnergy": null,
-            "hasPushNotification": true,
+            "hasPushNotification": false,
             "hasAssistant": null,
             "dataSourceLinks": [
                 {
-                    "id": "656f527a54b8a554d73cd606",
+                    "id": "6541233070efdee5d71546c8",
                     "dataSource": {
-                        "id": "654bcb76126631f945423205",
+                        "id": "654028dab1a507948b2b3ace",
                         "name": "StudyAbroadGuide Base",
                         "configuration": {
-                            "id": "654bcb76c3cc01bd6475ad73",
+                            "id": "654028dab1a507c1b42b3acf",
                             "type": "AIRTABLE",
                             "__typename": "AirtableDataSourceConfiguration"
                         },
                         "collections": [
                             {
-                                "id": "654bcb77c3cc01bd6475ad94",
+                                "id": "654028dcb1a50701e92b3ad0",
                                 "name": "tblPzGOzwwQcSsPql",
                                 "label": "Universities",
                                 "fields": [
                                     {
-                                        "id": "654bcb77c3cc01bd6475ad95",
+                                        "id": "654028dcb1a5072bb02b3ad1",
                                         "name": "fldyMp889qqhyllkj",
                                         "label": "advicePrimaryKey",
                                         "type": "STRING",
                                         "__typename": "DataSourceField"
                                     },
                                     {
-                                        "id": "654bcb77c3cc01bd6475ad96",
+                                        "id": "654028dcb1a507fe7c2b3ad2",
                                         "name": "fldYgXNB33T5p9oTZ",
                                         "label": "universityId",
                                         "type": "STRING",
                                         "__typename": "DataSourceField"
                                     },
                                     {
-                                        "id": "654bcb77c3cc01bd6475ad97",
+                                        "id": "654028dcb1a507884a2b3ad3",
                                         "name": "fld4ngXT7MP0IG47O",
                                         "label": "adviceType",
                                         "type": "PARAGRAPH",
                                         "__typename": "DataSourceField"
                                     },
                                     {
-                                        "id": "654bcb77c3cc01bd6475ad98",
+                                        "id": "654028dcb1a50749b72b3ad4",
                                         "name": "fldhuhdgXGrzfAzwL",
                                         "label": "advisorName",
                                         "type": "PARAGRAPH",
                                         "__typename": "DataSourceField"
                                     },
                                     {
-                                        "id": "654bcb77c3cc01bd6475ad99",
+                                        "id": "654067d9fe83e32832fdd19e",
                                         "name": "fldaP0MjeA5G3WfaB",
                                         "label": "advisorId",
                                         "type": "PARAGRAPH",
                                         "__typename": "DataSourceField"
                                     },
                                     {
-                                        "id": "654bcb77c3cc01bd6475ad9a",
+                                        "id": "654067d9fe83e32a5efdd19f",
                                         "name": "fldR5T6S6ZNsWI14a",
                                         "label": "title",
                                         "type": "PARAGRAPH",
                                         "__typename": "DataSourceField"
                                     },
                                     {
-                                        "id": "654bcb77c3cc01bd6475ad9b",
+                                        "id": "654067d9fe83e3cb84fdd1a0",
                                         "name": "fldgTNxY6iU388aaw",
                                         "label": "description",
                                         "type": "PARAGRAPH",
@@ -794,26 +758,26 @@
                                 "__typename": "DataSourceCollection"
                             },
                             {
-                                "id": "654bcb77c3cc01bd6475ad9c",
+                                "id": "654a63e4248250f8e1e1f482",
                                 "name": "tblKxMKNzMuVXte1S",
                                 "label": "SettingsData",
                                 "fields": [
                                     {
-                                        "id": "654bcb77c3cc01bd6475ad9d",
+                                        "id": "654a63e4248250f8e1e1f483",
                                         "name": "fldOuO0BEUMGGcMgi",
                                         "label": "DataId",
                                         "type": "STRING",
                                         "__typename": "DataSourceField"
                                     },
                                     {
-                                        "id": "654bcb77c3cc01bd6475ad9e",
+                                        "id": "654a63e4248250f8e1e1f484",
                                         "name": "fldsKrhkHTcA22zqe",
                                         "label": "Title",
                                         "type": "PARAGRAPH",
                                         "__typename": "DataSourceField"
                                     },
                                     {
-                                        "id": "654bcb77c3cc01bd6475ad9f",
+                                        "id": "654a63e4248250f8e1e1f485",
                                         "name": "fldIvIIHvrBbckJDE",
                                         "label": "Icon",
                                         "type": "IMAGE",
