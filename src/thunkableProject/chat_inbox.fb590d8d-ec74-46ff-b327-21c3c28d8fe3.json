@@ -66,9 +66,9 @@
                 "Width": 370,
                 "Visible": true,
                 "X": 0,
-                "Y": 0,
+                "Y": -2,
                 "RelativeX": 0,
-                "RelativeY": 0,
+                "RelativeY": -2,
                 "ResizeMode": "FLOAT_IN_PLACE",
                 "Layout": "column",
                 "BackgroundColor": "rgba(243, 243, 243, 1)",
@@ -105,7 +105,7 @@
                 "LayoutDirection": "VERTICAL",
                 "ParentId": "fb590d8d-ec74-46ff-b327-21c3c28d8fe3",
                 "position": "absolute",
-                "edgeOffsets": 0,
+                "edgeOffsets": -2,
                 "horizontal": false
             },
             "children": [
@@ -164,7 +164,7 @@
                             "type": "Image",
                             "translatedName": "Image",
                             "properties": {
-                                "Picture": "home-icon.svg",
+                                "Picture": "icons8-back-arrow-50 white.png",
                                 "resizeMode": "stretch",
                                 "Height": 50,
                                 "Width": 50,
@@ -197,56 +197,6 @@
                             "id": "1add9350-d178-411b-9995-aee1a5597955",
                             "thunkableVersion": 428,
                             "name": "Back_icon"
-                        },
-                        {
-                            "type": "Image",
-                            "translatedName": "Image",
-                            "properties": {
-                                "Picture": "Logo_blue.png",
-                                "resizeMode": "center",
-                                "Height": 100,
-                                "Width": 75,
-                                "Visible": true,
-                                "X": 260,
-                                "Y": 509,
-                                "RelativeX": 260,
-                                "RelativeY": 509,
-                                "ResizeMode": "STRETCH",
-                                "style": {
-                                    "marginTop": 0,
-                                    "marginBottom": 0,
-                                    "marginLeft": 0,
-                                    "marginRight": 0,
-                                    "paddingTop": 0,
-                                    "paddingBottom": 0,
-                                    "paddingLeft": 10,
-                                    "paddingRight": 0,
-                                    "shadowColor": "rgba(0, 0, 0, 0)",
-                                    "shadowOpacity": 0,
-                                    "scaledShadowOpacity": 0,
-                                    "shadowRadius": 0,
-                                    "shadowOffset": {
-                                        "width": 0,
-                                        "height": 0
-                                    },
-                                    "position": "absolute",
-                                    "left": "18.355546061197916%",
-                                    "top": "19.04047976011994%",
-                                    "display": "flex",
-                                    "borderStyle": "solid",
-                                    "borderRadius": 20,
-                                    "borderWidth": 2,
-                                    "borderColor": "rgba(0, 0, 0, 0)"
-                                },
-                                "capInsets": {},
-                                "ParentId": "fb590d8d-ec74-46ff-b327-21c3c28d8fe3",
-                                "position": "absolute",
-                                "edgeOffsets": 509
-                            },
-                            "children": [],
-                            "id": "bfe41661-2e05-433c-8a56-2a7184c3a6fd",
-                            "thunkableVersion": 428,
-                            "name": "profile_image"
                         },
                         {
                             "type": "Label",
@@ -310,6 +260,56 @@
                             "id": "396e7235-3844-4961-96f7-c70467329a1f",
                             "thunkableVersion": 428,
                             "name": "name_label"
+                        },
+                        {
+                            "type": "Image",
+                            "translatedName": "Image",
+                            "properties": {
+                                "Picture": "profile-white-icon.svg",
+                                "resizeMode": "center",
+                                "Height": 100,
+                                "Width": 75,
+                                "Visible": true,
+                                "X": 260,
+                                "Y": 509,
+                                "RelativeX": 260,
+                                "RelativeY": 509,
+                                "ResizeMode": "STRETCH",
+                                "style": {
+                                    "marginTop": 0,
+                                    "marginBottom": 0,
+                                    "marginLeft": 0,
+                                    "marginRight": 0,
+                                    "paddingTop": 0,
+                                    "paddingBottom": 0,
+                                    "paddingLeft": 10,
+                                    "paddingRight": 0,
+                                    "shadowColor": "rgba(0, 0, 0, 0)",
+                                    "shadowOpacity": 0,
+                                    "scaledShadowOpacity": 0,
+                                    "shadowRadius": 0,
+                                    "shadowOffset": {
+                                        "width": 0,
+                                        "height": 0
+                                    },
+                                    "position": "absolute",
+                                    "left": "18.355546061197916%",
+                                    "top": "19.04047976011994%",
+                                    "display": "flex",
+                                    "borderStyle": "solid",
+                                    "borderRadius": 20,
+                                    "borderWidth": 2,
+                                    "borderColor": "rgba(0, 0, 0, 0)"
+                                },
+                                "capInsets": {},
+                                "ParentId": "fb590d8d-ec74-46ff-b327-21c3c28d8fe3",
+                                "position": "absolute",
+                                "edgeOffsets": 509
+                            },
+                            "children": [],
+                            "id": "bfe41661-2e05-433c-8a56-2a7184c3a6fd",
+                            "thunkableVersion": 428,
+                            "name": "profile_image"
                         }
                     ],
                     "id": "d06ecd7f-d5fc-4e71-9d50-5681e1f8ff69",
@@ -389,19 +389,19 @@
                                     "paddingBottom": 0,
                                     "paddingLeft": 0,
                                     "paddingRight": 0,
-                                    "shadowColor": "rgba(0, 0, 0, 0)",
-                                    "shadowOpacity": 0,
+                                    "shadowColor": "rgba(155, 155, 155, 1)",
+                                    "shadowOpacity": 1,
                                     "scaledShadowOpacity": 0,
-                                    "shadowRadius": 0,
+                                    "shadowRadius": 20,
                                     "shadowOffset": {
-                                        "width": 0,
-                                        "height": 0
+                                        "width": 10,
+                                        "height": 1
                                     },
                                     "display": "flex",
                                     "justifyContent": "center",
                                     "alignItems": "center",
                                     "writingDirection": "auto",
-                                    "backgroundColor": "rgba(0, 0, 0, 0)",
+                                    "backgroundColor": "rgba(255, 255, 255, 1)",
                                     "borderRadius": 20
                                 },
                                 "ParentId": "fb590d8d-ec74-46ff-b327-21c3c28d8fe3"
@@ -452,19 +452,21 @@
                             "flexDirection": "row",
                             "justifyContent": "center",
                             "alignItems": "center",
-                            "borderRadius": 20
+                            "borderRadius": 20,
+                            "backgroundColor": "rgba(255, 255, 255, 1)"
                         },
                         "ScrollBarVisible": true,
                         "LayoutDirection": "HORIZONTAL",
                         "horizontal": true,
-                        "edgeOffsets": null
+                        "edgeOffsets": null,
+                        "BackgroundColor": "rgba(255, 255, 255, 1)"
                     },
                     "children": [
                         {
                             "type": "TextInput",
                             "translatedName": "Text Input",
                             "properties": {
-                                "Hint": "Type here",
+                                "Hint": "   Type here",
                                 "Height": 37,
                                 "Width": 325,
                                 "Visible": true,
@@ -517,7 +519,7 @@
                                 "ParentId": "fb590d8d-ec74-46ff-b327-21c3c28d8fe3",
                                 "position": "absolute",
                                 "edgeOffsets": 514,
-                                "placeholder": "Type here"
+                                "placeholder": "   Type here"
                             },
                             "children": [],
                             "id": "53dcbec2-6851-4811-9bd0-6fc58a9d3f94",
