@@ -5,3 +5,4 @@ The Study Abroad Guide will be an app catered to helping students who are lookin
 
 # Where to find the app
 Currently, the app is in the internal testing phase, meaning only a select amount of people can access the app on the Google Play Store. If you are the team 214, you can access the app through the link [here](https://play.google.com/apps/internaltest/4701695855178555989).
+Once you have tested the app, please fill out the [feedback form](https://forms.gle/ZGCqy4QHVFGD6MZ6A) to help us improve the app.
